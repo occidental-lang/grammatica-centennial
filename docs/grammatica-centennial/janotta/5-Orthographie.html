@@ -1,0 +1,566 @@
+<!DOCTYPE HTML>
+<html lang="ie" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Orthographie - Grammatica Centennial</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Li max complet grammatica de Occidental (Interlingue) por li centennial.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="../../favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="../../favicon.png">
+        
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        
+
+        <div id="definition"></div>
+
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "ayu" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">Grammatica Centennial</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/index.html"><strong aria-hidden="true">1.</strong> Complet Grammatica de Occidental</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/0-Preface.html"><strong aria-hidden="true">2.</strong> Preface</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/1-Fonologie.html"><strong aria-hidden="true">3.</strong> Fonologie</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/2-Flexion.html"><strong aria-hidden="true">4.</strong> Flexion</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/3-Derivation.html"><strong aria-hidden="true">5.</strong> Derivation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/4-Composition.html"><strong aria-hidden="true">6.</strong> Composition</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/5-Orthographie.html" class="active"><strong aria-hidden="true">7.</strong> Orthographie</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/index.html"><strong aria-hidden="true">8.</strong> Grammatica de Interlingue</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/00-Anteparol.html"><strong aria-hidden="true">9.</strong> Anteparol</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/01-Alfabet.html"><strong aria-hidden="true">10.</strong> Alfabet</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/02-Pronunciation.html"><strong aria-hidden="true">11.</strong> Pronunciation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/03-Accentuation.html"><strong aria-hidden="true">12.</strong> Accentuation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/04-Ortografie.html"><strong aria-hidden="true">13.</strong> Ortografie</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/05-Articul.html"><strong aria-hidden="true">14.</strong> Articul</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/06-Substantive.html"><strong aria-hidden="true">15.</strong> Substantive</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/07-Adjective.html"><strong aria-hidden="true">16.</strong> Adjective</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/08-Pronómines.html"><strong aria-hidden="true">17.</strong> Pronómines</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/09-Numerales.html"><strong aria-hidden="true">18.</strong> Numerales</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/10-Verb.html"><strong aria-hidden="true">19.</strong> Verb</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/11-Adverbies.html"><strong aria-hidden="true">20.</strong> Adverbies</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/12-Prepositiones.html"><strong aria-hidden="true">21.</strong> Prepositiones</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/13-Conjunctiones.html"><strong aria-hidden="true">22.</strong> Conjunctiones</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/14-Interjectiones.html"><strong aria-hidden="true">23.</strong> Interjectiones</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/15-Sintax.html"><strong aria-hidden="true">24.</strong> Sintax</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/16-Interpunction.html"><strong aria-hidden="true">25.</strong> Interpunction</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/17-Parolformation.html"><strong aria-hidden="true">26.</strong> Parolformation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/18-Frases-sistematic.html"><strong aria-hidden="true">27.</strong> Frases sistematic</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/19-vermen-international.html"><strong aria-hidden="true">28.</strong> Li lingue vermen international</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Grammatica Centennial</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <div id="langPicker"></div>
+                        
+                        <a href="https://github.com/occidental-lang/grammatica-centennial" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2><a class="header" href="#v-esim-capitul-orthographie" id="v-esim-capitul-orthographie">V-esim Capitul: Orthographie</a></h2>
+<h3><a class="header" href="#a-mollat-sones" id="a-mollat-sones">A. Mollat sones.</a></h3>
+<p>Li mollat sones l' e n' esset li max disputat punctu del ortografie de Occidental.</p>
+<p>On ha minu criticat li sones del vispunctu fonetic; li criticas directet se plu contra li scrition per li apostrof. On studiat ti problema in detalliat maniere in li Comité Explorativ del Lingue International Auxiliari (CELIA) sin trovar un apt ortografic remedie. Do in fin CELIA adoptet duplettes apu li ancian formes, p. ex. attinar apu attin'er, detail apu detal'e, do un lexicologic solution del problema. Li complet liste de ti paroles con li nov duplettes in experimentation ha esset insertet in Cosmoglotta nr 73.</p>
+<p>It va esser affere del Occidental-Academie decider definitivmen ti problema.</p>
+<h3><a class="header" href="#b-lítteres-c-g-gh-k" id="b-lítteres-c-g-gh-k">B. Lítteres c, g, gh, k.</a></h3>
+<p>Li scrition e pronunciation del lítteres, resp. sones c e g es un del max disputat problemas del fonologie e ortografie del lingue international in general. Lor pronunciation e ti del bilítter gh in Occidental ha esset indicat in I. B. 2 («Cosmoglotta», nr 64). Lor aplication in li flexion e in li derivation de ti paroles, de queles li tema fini per c o g, ha esset explicat in II. D. 4 (Cosmoglotta nr 65) e III. E. (Cosmoglotta nr 72).</p>
+<p>It resta do solmen ti paroles, u li concernet lítteres trova se ne in li fine del temas.</p>
+<p>In li paroles de latin orígin li latin scrition per C es conservat, quam to es monstrat in li sequent parte D.</p>
+<p>Li transscrition del grec son k eveni in general secun li maniere latin, do per c in vice de k con li modern duplic pronunciation del c: academie, ascet, catalog, cataract, centaur, ceramic, cinema(tica), cithar, clero, clima, collodium, colophonio, comma, cosmo, crise, cycle, cylindre, decagramm, ecclesie, economie, electric, erica, hectometre, icteric, micri, narcose, nectar, octogon, practic, protocol, scen, sceptic, sceptre, sciopticon, syndico, tectonica. Ma on scri secun li exemple del modern lingues: krypton (pro li chimic abbreviation Kr), kyrie (= litanie). On scri in vice de ascet, sceptic anc «asket, skeptic», ma li unesim formes (tis con c) es preferibil, pro que ili plu concorda con li general caractere de Occidental e in special anc con li altri exemples superior quam «scen» etc.</p>
+<p>C dur ante e, i in non-classic paroles es scrit sovente k: Kenia, Kilimanjaro, kimono (jap.), meshin (Ar), nickel (D), racket (de Ar rahat manu-palme b), rakete (de I rocchetta rukett de ahD roccho ruc; turkis, Turkia, turk; Valakia, valak. </p>
+<p>On scri pro li international grafisme mem k in li sequent paroles, u to ne vell esser necessi pro li phonetism: bakshish (Pers.), cok[s] (A), deck (HI), dock, kabyl, kainit, kali (= alcali Ar), kalium (pro li chimic abbreviation K), kaolin, kashmir, knut, ulak, kuli, mark (D), ukas (R).</p>
+<p>In li paroles non-classic (ni latin, ni grec) on trova tre sovente un g ante e, i con son dur, quel on scri in ti casu per h: ghepard, ghesha, ghetto, gheuse, ghéyser, ghibellin, ghigh (AD gig, F gigue), ghilde, ghirlande (plu bon quam guirlande, quel have solmen li grafisme, ma ne li fonetisme francés; I ghirlanda).</p>
+<h3><a class="header" href="#c-duplic-consonantes" id="c-duplic-consonantes">C. Duplic consonantes.</a></h3>
+<p>Mult paroles posse esser scrit per simplic o duplic consonantes (fonetic o historic scrition): colision o collision, comunion o communion, corespondentie o correspondentie, ocupation o occupation, raport o rapport. In quelc casus existe anc un triesim form anc foneticmen different; on mey comparar li IV-m capitul, partes B e D (Cosmoglotta, nrs 75 till 78). In general on mey preferer li formes de historic scrition, pro que ili da un plu clar imágin del developation historic del paroles e anc es plu comprensibil pro to.</p>
+<p>Un líber scrition es impossibil in ti casus, u li different scrition indica anc un diferent signification e pronunciation, p. ex. per li lítter c: (yo) moca (verb e mocca (café); per d: adition (jur.) e addition (math.); per I: bal (dansa) e ball (ludette), folie (de plantes) e follie (dementie), mol (lápid) e moll (contrarie de dur), stal (metall) e stall (por animales); per m: comet (astre) e commette (verb), rame (de árbor) e ramme (machine); per n: cane (animal) e canne (plant etc), pane (nutriment) e panne (de vehicul); per p: capir (contener) e cappar (cupar); per r: car (amat) e carre (vehicul), curar (por sanar) e currer (ear tre rapidmen), era (témpor) e erra (erration), tur (action) e turre (edificie); per s: casu (eveniment) e casse (de moné), cusin (parent) e cussin (por jacer), miser(e) e misser (verb), pose (position) e posse (es capabil), present (essent ci) e pressent (de presser), rose (flor) e ross (color); per t: bote (nave) e botte (sapate), rate (parte) e ratt[e] (animal), vate (in un fluvie) e vatte (de lan).</p>
+<p>On mey atenter bon li ortografie de summa (resultat de addition) con duplic m, ma resuma (curt repetition) con simplic m; nam resumar ne es parent a summa. Summa es identic a suprem, quel es li historic superlativ de superior; in contra li verb resumar deriva se de L sumere (sub+emere, «prender in se de supra») e es parent a consumar, premie etc, anc scrit con simplic m.</p>
+<p>Sammen on mey distincter bon con simplic n de abonnar e bonna con duplic n; malgré li ortografie I abonnar, ti verb veni ne de bon, ma de à+bonne, un form ancian-francés in vice de F borne «limit», parent a A bound «limit». Ergo abonnar ha significat in prim «limitar» e poy «acquisiter ye un precie limitat». Concernent li parol bonna it es bon usar li international scrition per duplic n por conservar ti form internationalmen comprensibil e por bon distincter it de bona, malgré que «bonna» deriva se de bon (L bonus).</p>
+<p>On mey anc distincter li adjectiv bell e li prefix bel-, pro que li signification es tre divers, malgré que li du radicas es identic secun li etimologie, do: bell matre, bel-matre. e mem: bell belmatre.</p>
+<h3><a class="header" href="#d-transscrition-del-latin-paroles" id="d-transscrition-del-latin-paroles">D. Transscrition del latin paroles.</a></h3>
+<p>Li lingue international Occidental es fundat sur li paroles international. Ma li majorité del paroles international per li evolution del europan cultura es de orígin latin. Pro to anc li majorité del paroles de Occidental deveni ex li latin e es pro to retrovabil in li romanic paroles. In li transition del latin paroles a Occidental ili recive li sequent transformationes: ae deveni e: L aedificium = Occidental edificie, L adhaesio = adhesion, L Graecia = Grecia, L, haesitare = hesitar, L laedere = leder, L praecipitare = precepitar, L praeter = preter, L praesidere = presider; oe deveni sammen e: L poena pena. Ti ortografie es in general egal al francesi scrition.</p>
+<p>Li conservation del scrition ae e oe (eventual con adaptat pronunciation secun li exemple del lingue german) vell haver un grand valore cultural e educativ; ma it representa anc quelc ínconvenienties, pro que existe ya mult paroles in queles ae e oe ne es diphthongs quam p. ex.: aere, poema, etc. Adver on vell posser aplicar ci li trema: aëre, poëma. Ma si un diferentiation es oportun quam inter equidistantie (L aequidistantia) e equitation, on vell posser usar anc nu li scrition ae e oe, precipue in lexicos scientific, do: aequidistantie, paedagogica, praehistoric, saeculari, phóenix (in vice de equidistantic, pedagogica, prehistoric, seculari, fénix, etc).</p>
+<p>On vell posser hesitar in li casu del transscrition del son «tss» in li latin paroles, por exemple es que scrir difference o differentie. Li paroles D Diferenz (z = c), A difference, F différence vell pledar por difference, ma si on prende differentie secun li L</p>
+<p>differentia, on obtene it quam regulari derivation del Occidental participie «different»; e in plu on posse regularimen derivar de differentie li proles differentiar e differential. Sammen on scri per t omni altri static verba substantives e lor derivates: alliantie, distantie, elegantie, substantie, vacantie. essentie, licentie, residentia, audientie, obedientie, etc etc; compara III. B. l, suffixes -ie e -ion («Cosmoglotta» nr 67, pg 216, 217 e 218).</p>
+<p>Germanes, slaves e sudromanes mey atenter, que Occidental ha in general plenmen conservat li latin consonantes, ergo on scri L accentus Occidental accentu in vice de D</p>
+<p>Akzent, Pol akcent; L natio = Occidental nation in vice de I nazione, S nación, Pt. naçião; L Onyx = Occidental. Onyx in vice de I onice, Pol oniks. It es un grand erra voler soluer in un lingue international li problema de fonetic scrition. Talmen on ha atinget parol-images (grafismes) vermen barbaric. To evenit ne solmen in lingues artificial (Esperanto, Ido, Novial etc), ma anc in lingues national, por exemple in german e in li lingues Slavic e sudromamc quam pruva li exemples superior.</p>
+<p>Resumante noi constata, que li historic scrition conserva li evidentie del etimologic coherentie del radicas e paroles, quel es efaciat per un fonetic ortografie. On mey comparar li sequent formes fonetic con li juxtaposit historic.</p>
+<table><thead><tr><th>Fonetic formes</th><th>Historic formes (Occidental)</th></tr></thead><tbody>
+<tr><td>elektrik: elektrizitá</td><td>electric: electricitá</td></tr>
+<tr><td>afel: perihel</td><td>aphel: perihel</td></tr>
+<tr><td>nazion: natur</td><td>nation: natura</td></tr>
+</tbody></table>
+<h3><a class="header" href="#e-transscrition-del-grec-paroles" id="e-transscrition-del-grec-paroles">E. Transscrition del grec paroles.</a></h3>
+<p>Li max mult paroles de grec orígin veni trans li latin al modern lingues e ergo a Occidental. Pro to on scri in Occidental in li grec paroles: e in vice de ai (p. ex. demon, pedagog), sammen e in vice de Oi (economie), i in vice de ei (idyll, apodictic), u in vice de ou (chirurg, enthusiasm, liturgie), c in vice de k (cp. in supra li parte B).</p>
+<p>In ultra in paroles de grec orígin on posse scrir foneticmen (o plu bon dit: acurtatmen) c (ma ne ante e, i, y), f, r, t, o historicmen (o plu bon dit: completmen) ch (ma ne ante a, o, u), ph, rh, th: Clor o chlor, cristian o christian, crom o Chrom, cronometre o chronometre, fase o phase (o phasis), fénix o phénix, fotografar o photographar, Ftise o Phthise, fysica o physica, icneumon o ichneumon, ictuol o ichthyol, reumatic o rheumatic, rytm o rhythm, teatre o theatre, tecnic o technic, tema o thema, teosof o theosoph, termofor o thermofor, tron o thron etc. It es recomandat usar li «historic» scrition precipue in publicationes sciential. Ma ante a, o on mey scrir sempre c: arcaism e ne: archaism), calcedon (e ne: chalcedon), cameleon (e ne: chameleon), camomil (e ne: chamomille), caos (e ne: chaos), caractere (e ne: charactere), cart (e ne: chart, quel have un signification modificat), colera (e ne: cholera), colere (e ne: cholere), cor (e ne: chor), cord (e ne: chord), eco, epoca, hypocondre, mecanic, saccarin, scole.</p>
+<p>Ante e, i, y on scri solmen ch: anarchist, archepiscop, archipelag, architect, archive, chelidonie (A celandine, F chélidoine, D Schellkraut), chimere, chiragra, chiromant, chirurg, chyle, chyme, ischias, monarchia, orchestre, orchidé, psychic (ma psycologie), schema, traché(a), trachyt, trichine. Ma in vice de chilo- on scri sempre kilo-, abreviat K (malgré I chilo-); vide li parte I (6, b) de ti ci capitul V.</p>
+<p>Quelc paroles de grec orígin posse esser scrit per i o y: coryfé o corifé, styl o stil, syllab o sillab, tyf (anc typho) o tif, typ o tip. On deve usar ti supletion tre rarmen por evitar miscomprenses; altrimen tales vell posser resultar inter mite (insect) e mythe (raconta), chlorophil (aspirant al chlor) e chlorophyll (materie organic), profilaxe e prophylaxe etc. On deve usar nequande i in vice de y in paroles de non-grec origin, p. ex. in li paroles flute, styrmann, syll etc, u resta sempre li lítter y. </p>
+<h3><a class="header" href="#f-transscrition-del-non-classic-paroles" id="f-transscrition-del-non-classic-paroles">F. Transscrition del non-classic paroles.</a></h3>
+<p>Li transscrition del non-classic paroles ne have uniform regules; ma pro que lor númer es micri, to have null importantie. In general on ha provat adaptar al aspect de Occidental li caractere de ti paroles ne venient ex li latinité.</p>
+<p>On posse dir, que li max mult paroles mem extraeuropan adapta se bon al international orthographie de Occidental. On mey comparar persian sha, pashdh, malayesi orang-utan, nov-selandesi emu, australian cangurú, caraibic colibrí, hottentott quagga, arabic nadir, razzia, Japanesi ghesha, indic nirvana, nordamerican mocassin etc. On mey egardar mem un parol tam crud quam li german edelweiss.</p>
+<p>On mey comparar in li parte B. in supra li explication pri li usu de k in li non-classic paroles. Quam on ci usa sovente k in vice de c dur, sammen on usa ci kh in vice de ch dur p. ex. khamsin, khan, khedioe, Kheops, Khiva, kolkhose, Tutenkhamun.</p>
+<p>On scri anc in non-classic paroles tch in vice de ch (tchecoslovak), ts in vice de c e z (tsar, tsetse) etc.</p>
+<h3><a class="header" href="#g-majuscules" id="g-majuscules">G. Majuscules.</a></h3>
+<p>On usa majuscules quam líttere inicial in general:</p>
+<ol>
+<li>
+<p>in li unesim parol de chascun phrase, ergo post chascun punctu, sovente anc post un colon (v. in infra);</p>
+</li>
+<li>
+<p>pro politesse in titules, p. ex.: Senior Professor. In li nómin del Rey. -- Ma it es recomandat usar minuscules anc in ti casus. In plu on usa majuscules;</p>
+</li>
+<li>
+<p>in li nórnines propri inclusiv li nómines de landes, montes, mares, lagos, fluvies, institutiones, corporationes etc, p. ex.: Unit States de America (= USA), Alpes, Mont Blanc, Mare Mort, Lago de Lucern, Societé de Nationes, Carl Magno, Pipin</p>
+</li>
+</ol>
+<p>Curt.</p>
+<p>On ne usa majuscules in li derivates de nómines propri, p. ex.: Germania, ma li germanes, german lingue, pangermanism, germanophil, germanophob; Christ ( = Cristo),</p>
+<p>Antichrist, ma c[h]ristian, c[h]ristianité, c[h]ristianisar, c[hlristianism, antic[h]ristianism.</p>
+<p>On anc ne imita li usu de quelc lingues, in queles quelc pronómines personal have un inicial majuscul, quam in anglesi «I» (= yo), in german in epistules «Du»</p>
+<p>(= tu) e «Ihr» (= vu) e sempre «Sie» (= vu in casu de politesse); do: U yo va incontrar vos e vor matre. Sammen on mey commensar per minuscules li nómines del dies, mensus e sesones: soledí, pasca, januar, verne.</p>
+<p>In general on mey usar minuscules, si on hesita pri li scrition de un inicial líttere.</p>
+<p>On mey distincter I e J e ne imitar li mal usu de quelc german printerías, queles printa erratorimen «Jch, Jdo, Jgnatius, Jnfanterie», in vice del just ortografie «Ich (= yo), Ido, Ignatius, Infanterie».</p>
+<h3><a class="header" href="#h-manuscrition" id="h-manuscrition">H. Manuscrition.</a></h3>
+<p>Anc in li manuscrition on mey atenter bonmen distincter I de J, sammen F de T,</p>
+<p>K de R etc. In general on mey reflecter, que scrir es in mult casus ne un privat, ma un social acte. On deve pensar tam al ocules quam al témpor del letor. Altrimen it vell posser evenir quam a Tristan Bernard, quande il invitat un parisian medico al dejeuna. Ex li epistul responsori, quel esset presc nonleibil, li hósped opinet posser leer un refusa, ma il presentat it, por esser secur, a un farmacist. «Ti medicina custa quin francs», esset li response, e in sam témpor un flacon con un rosi liquide esset presset in su manu.</p>
+<p>It es necessi, que on scri ne solmen leibil, ma anc per lítteres, queles es customal al letor.</p>
+<h3><a class="header" href="#i-interpunction" id="i-interpunction">I. Interpunction.</a></h3>
+<h4><a class="header" href="#1-punctu" id="1-punctu">1. Punctu</a></h4>
+<p>Punctu (.) es usat por separar li frases, i.e. expressiones de integri e complet pensas absolutmen índependent. Un bon precepte: Ples usar mult punctus, i.e. ples far curt frases. In li algebra li punctu significa li multiplication sammen quam li signe X. Pro to on ne deve usar li punctu por separar li millenes in long númeres, ma on mey usar sempre solmen lacunes (spacies), por ex. 2 345 000. On deve ne usar li punctu por li decimales (vide li sequent articul).</p>
+<h4><a class="header" href="#2-comma" id="2-comma">2. Comma</a></h4>
+<p>Comma (,) es usat por separar li propositiones queles composi un frase. + Pos li relativ pronómines, adjectives e adverbies, on posse imitar li francesi aplication del comma, it es</p>
+<p>a. usar it ante relatives qualificativ (explicativ)
+b. ne usar it ante relatives determinativ (specificativ).</p>
+<p>Exemples: Li phrase Yo ne ama li infantes, queles fa brui posse haver du significationes:</p>
+<p>a. Yo ne ama li (i.e. omni) infantes, pro que ili fa brui
+b. Yo ne ama tis del infantes, queles fa brui.</p>
+<p>In li unesim casu (a), li relative es qualificativ o explicativ; it qualifica in general omni infantes. In li duesim casu (b), it es determinativ; it determina li specie de infantes queles yo ne ama. Ante li relatives determinativ (casu b) on posse omisser li comma.</p>
+<p>Altri exemples:</p>
+<p>a. con relatives qualificativ (explicativ): + Ples regardar ti mann, quel lee un jurnal; il audi tamen omnicos, quo noi di. + Mi old amic, quel es acustomat dir li veritá, ne ha audaciat dir me it in ti casu. + Napoleon, quel videt avansar li ínamicos, directet contra les su Old Guardie.</p>
+<p>b. con relatives determinativ (specificativ): + Li hom quel lee li jurnales ne deve creder omnicos quo il lee. + Li amic quel ne audacia dir li veritá ne es un ver amic. + Li unesim soldat quel videt li ínamicos hastat advertir li generale.</p>
+<p>Ti exemples suggeste un util remarca. In omni vezes quande li substantive es determinat, li parol quel es solmen explicativ, ergo it postula un comma. Ma to eveni </p>
+<p>a. si li substantive es un nómin propri; evidentmen ne existe pluri Napoleons, ergo necos quo vell posser determinar it plu completmen;</p>
+<p>b. si li substantiv es acompaniat de un adjective determinativ, sive demonstrativ, sive possessiv: «ti hom» es ja suficentmen e completmen determinat del demonstrative (o del geste, quel acompania it); «mi old amic» es anc determinat per ti ci epitetes.</p>
+<p>Comprensibilmen, ti regules es valid anc si quel es precedet de un preposition</p>
+<p>a. qualificativ: + Mi patre, de quel yo demandat un consilie, aprobat mi maniere de pensar.</p>
+<p>b. determinativ: + Li amic de quel yo demandat un consilie aprobat mi maniere de pensar.</p>
+<p>Li relatives qualificativ on posse supleer per un conjunction (o locution conjunctional): Ples regardar ti mann; malgré que il lee un jurnale, il audi tamen omnicos, quo noi di, -- malgré que (o: pro que) mi old amic es acustomat dir li veritá, il ne ha audaciat... -- Napoleon directet su Old Guardie contra li ínamicos, quande il videt les avansar. -- Quande yo demandat un consilie de mi patre, il aprobat mi maniere de pensar. </p>
+<p>In li númeres decimal, li integres es separat del decimales per un comma (ne per un punctu, quel have un altri usu; vide supra), p. ex.: 3,141 59 (compara li anglesi e austrian maniere 3 141.59!). Li unesim decimale seque sin interspacie (lacune) al comma; tri e tri decimales es separat del sequent gruppe per un lacune. Si ne existe integres, on scri un zero ante li comma, p. ex.: 0,89 ples leer: «null comma ott nin» o «null integres ottanti-nin centesimes»; do on ne imita li maniere de anglesi. </p>
+<h4><a class="header" href="#3-semicolon" id="3-semicolon">3. Semicolon</a></h4>
+<p>Semicolon o punctu-comma (;) es usat por separar propositiones o frases grammaticalmen índependent, ma ligat per li signification.</p>
+<h4><a class="header" href="#4-colon" id="4-colon">4. Colon</a></h4>
+<p>Colon (:) es usat por anunciar un explication; it indica que li frase sequent explica li precedent. It anuncia anc citates, ma in ti casus it es sequet de citat-signes (vide infra)</p>
+<h4><a class="header" href="#5-punctus-suspensiv" id="5-punctus-suspensiv">5. Punctus Suspensiv</a></h4>
+<p>Punctus suspensiv (...) indica un interruption del frase, sive de un altri parlant sive del parlante self quel pausa por retener o changear li expression de su pensa. Li germanes usa in vice de it li «Gedankenstrich» (litteralmen: pensa-strec), ma it es un mal usu, nam li strec have un altri signification e un altri, índispensabil usu (v. infra). On posse usar li punctus suspensiv anc in vice del parol «til»; vide infra sub «strec».</p>
+<h4><a class="header" href="#6-parenteses" id="6-parenteses">6. Parenteses</a></h4>
+<p>Parenteses () es usat por includer un frase, proposition o parol, quel es apart e deve esser separat del céteri textu. In general it es un remarca lateral, quel on inserte, e quel interrupte li rect órdine del pensa. De to seque un consilie: ples ne abuser li parenteses, pro que on risca per to trublar li comprension. + Pro que li parenteses es essentialmen destinat a includer, on ne deve usar les un sin li altri in li textu current qualmen on fa sovente pri li númeres. Vice «1)» on deve scrir, o «(1)» o «1-m» (abreviatura de unesim). Li usu «1)» have un grav detriment: si on vide un tal parentese final, on sercha spontanimen li parentese inicial sin trovar it. In plu, it eveni sovente, que ti parentese «vidui» es trovat in o apu un altri ver (duplic) parentese, e in ti casu on have sive «1))», sive «)1)» du dispositiones egalmen absurd. Ergo: nequande usar un parentese sol. + Li sam regul vale anc por li usu del parenteses con lítteres, do «(a)», «(b)», e ne «a)», «b)». + On posse far ci solmen un exception, 1. e. in li commensa de un alinea. Ta li parentese cludent «)» posse esser aplicat sol con ciffres o lítteres sin li parentese apertent, pro que ci un miscomprense ne posse evenir.</p>
+<h4><a class="header" href="#7-crampones" id="7-crampones">7. Crampones</a></h4>
+<p>Crampones <code>[]</code> e imbrassamentes <code>{}</code> es usat, in matematica, quam parenteses de duesim o triesim gradu, ex. . <code>{...[...(...)...]...}</code>. In li «prosa», on posse usar li crampones in simil casu o quam apart parenteses. On usa li inbrassament (unic) por far coresponder un linea (unilateralmen) a pluri lineas (altrilateralmen), talmen: </p>
+<pre><code> .... {... ...}
+
+----{... o ...} ....
+
+ {... ...} ....
+</code></pre>
+<p>Li punte deve tornar se al unic linea, e li brasses (li concavitá) al pluri lineas. Noi consilia usar rarmen li inbrassamentes, pro que ili fa complicat e desfacil li composition. Ili es util solmen in tabelles. Ili posse esser usat anc horizontalmen p. ex. in genealogic árbores: </p>
+<p>Ludovico </p>
+<p>Petro, Paulo, Ioannes, Maria. </p>
+<h4><a class="header" href="#8-tiré" id="8-tiré">8. Tiré</a></h4>
+<p>Tiré (-) es un ortografical signe e functiona quam ligation. It unifica li partes de un parol composit (c . III, B., l). It indica anc li separation de un parol de un linea al altri (cp. I, D., 4). Ples nequande usar ci un duplic strec, quel es reservat quam signe de egalitá, ni iterar li tiré in li comensa del linea sequent. In plu ples [ne usar li tiré pos li nómin de un person por indicar su cité o land, ma usar in ti casus li parenteses; do: senior Martin (Paris) o senior Braun (Germania), e ne Martin-Paris o Braun-Germania.</p>
+<h4><a class="header" href="#9-strec" id="9-strec">9. Strec</a></h4>
+<p>Strec (—) es plu long quam li tiré e functiona quam separation. It indica sive un changeament del interlocutor (i.e. it separa li dictiones, responses de divers interlocutores), sive un changeament del tema. It separa do plu mult quam li punctu. Ma in li duesim casu on mey preferer li usation del alinea, quel indica plu clarmen li separation; it have li avantage inserter in li textu «blancages», vacuages, queles reposa li ocul e furni a it un stoppa-punctu. Li strec servi anc, precipue in lexicos, por suppleer paroles o parol-partes, queles on ne vole repetir. + Pro que li strec significa li subtraction in li matematica, i. e. inter ciffres, on ne mey usar it inter ciffres in un altri signification, p. ex. «til» on scri do: de 2 til 3 cloccas (e ne: de 2 -- 3 cloccas); si li preposition <em>de</em> ne precede e precipue in abreviationes on posse usar anc li du punctus, do 2 til 3 cloccas = 2 ... 3 cloccas.</p>
+<h4><a class="header" href="#10-signes-de-citation" id="10-signes-de-citation">10. Signes de citation</a></h4>
+<p>Signes de citation (« »). Ili indica e include li paroles e frases queles on cita. Ili deve tornar lor concavitá a intern, i.e. al textu includet. On posse anc usar duplic commas quam signes de citation, i.e. ,,...,, secun li maniere german o «...» secun li maniere anglesi; ma li signes francesi, i.e. «...», es preferibil, pro que ili es plu distinctibil. Li unesim signe es nominat apertent o apertori, li duesim cludent o clusori.</p>
+<h4><a class="header" href="#11-referenties" id="11-referenties">11. Referenties</a></h4>
+<p>Referenties a ped-notes. Por indicar li ped-notes, nequel medie es tam simplic e commod quam li números; nam ili es li max bon e clar signes, e ili es disponibil in un ínlimitat quantité. Si on usa asteriscos (*) o crucettes (†), quam in quelc printerías, e si on have mult notes sur li sam págin, on neplu save, qualmen arangear it.</p>
+<h4><a class="header" href="#12-signe-de-exclamation" id="12-signe-de-exclamation">12. Signe de exclamation</a></h4>
+<p>Signe de exclamation (!) es usat pos un exclamation o pos un frase exclamatori. Quelc popules usa it pos omni vocation o interpellation, mem pos Senior in li comensa de epistules, i.e. pos omni vocatives, ma to ne es necessi.</p>
+<h4><a class="header" href="#13-signe-interrogativ" id="13-signe-interrogativ">13. Signe interrogativ</a></h4>
+<p>Signe interrogativ (?) es usat solmen pos direct frases interrogativ.</p>
+<h4><a class="header" href="#14-apostrof" id="14-apostrof">14. Apostrof</a></h4>
+<p>Apostrof ('). -- It es usat por indicar un elision; in ultra it forma un parte del lítteres del mollat sones l' e n'; ples vider I, B., 2 e V, A.</p>
+<h4><a class="header" href="#15" id="15">15</a></h4>
+<p>General remarca. -- </p>
+<p>On ne deve misevaluar li importantie del interpunction e depreciar li concernent regules quam ínnecessi e minuciosi. Li interpunction es necessi por li claritá, do por li perfect e secur intercomprension; it have importantie por li pronunciation. Li punctu representa un stoppa passabilmen grand; li colon e li punctu-comma un stoppa minu grand; li comma un stoppa mem minu grand, ma sensibil. Egardar ti signes e far li corespondent pausas, es li unesim regul del diction, e li max important. Pro to ja li Ido-Academie ha tractat li interpunction tre detalliatmen, e noi secue ci su exemple, sovente con li sam paroles e specimenes.</p>
+<h3><a class="header" href="#j-abreviationes" id="j-abreviationes">J. Abreviationes.</a></h3>
+<h4><a class="header" href="#1-general-abrevationes" id="1-general-abrevationes">1. General Abrevationes.</a></h4>
+<p>a.C. = ante Christo</p>
+<p>a.c. = (del) annu current</p>
+<p>am. = antemidí (= premidí)</p>
+<p>c. = (del mensu) current</p>
+<p>cp. = (ples) compara(r)</p>
+<p>Dr., dr. = doctor</p>
+<p>etc = etcetera (e céteri)</p>
+<p>EV = (del) era vulgari (= cristian era)</p>
+<p>i.e. = it es</p>
+<p>md. = midí</p>
+<p>mn. = minocte</p>
+<p>ms. = manuscrit</p>
+<p>nr = numeró</p>
+<p>nrs = numerós</p>
+<p>p.ex. = por exemple</p>
+<p>p. C. = pos Cristo</p>
+<p>pg. = págin</p>
+<p>PS. = pos-scrite</p>
+<p>sr., Sr. = senior</p>
+<p>sra., Sra. = seniora</p>
+<p>v. = (ples) vide(r)</p>
+<h4><a class="header" href="#2-abreviationes-linguistic" id="2-abreviationes-linguistic">2. Abreviationes linguistic.</a></h4>
+<p>(a) Natural lingues</p>
+<p>A = anglesi</p>
+<p>Ab = arabic</p>
+<p>Al = albanesi</p>
+<p>Am = american (anglesi)</p>
+<p>An = armenian</p>
+<p>Cl = celtic</p>
+<p>Ct = catalan</p>
+<p>D = german (= deutsch{</p>
+<p>Dn = danesi</p>
+<p>Es = estonian</p>
+<p>F = francesi</p>
+<p>Fn = finnic</p>
+<p>G = (ancian) grec</p>
+<p>Gt = gotic</p>
+<p>Hb = hebreic</p>
+<p>Hl = hollandesi</p>
+<p>I = italian</p>
+<p>In = indic</p>
+<p>Is = islandesi</p>
+<p>L = latin</p>
+<p>Let = letton</p>
+<p>Lit = lituan</p>
+<p>N = nordic</p>
+<p>Nv = norveg</p>
+<p>P = portugalesi</p>
+<p>Pl = polonesi</p>
+<p>Pr = provenzal</p>
+<p>R = russ</p>
+<p>Rh = retoroman(ic)</p>
+<p>Rm = rumanian</p>
+<p>S = hispan</p>
+<p>Sc = sanscrit</p>
+<p>Sl = slavic</p>
+<p>Sv = svedic</p>
+<p>T = turk</p>
+<p>Tch = tchec</p>
+<p>U = (h)ungarian</p>
+<p>Y = yugoslav (= serbo-croatic)</p>
+<p>m = medí, p. ex.:</p>
+<p>mhd = medíaltgerman</p>
+<p>mL = medílatin.</p>
+<p>Subclassificationes:</p>
+<p>a = ancian, p.ex.:</p>
+<p>aA = ancian-anglesi = anglosaxonic,</p>
+<p>aD = ancian-german,</p>
+<p>aIn = ancian-indic.</p>
+<p>b = bass (A low, D nieder, F bas), p.ex.:</p>
+<p>bD = bass-german.</p>
+<p>h = alt (A high, D hoch, F haut), p. ex.:</p>
+<p>hD = altgerman,</p>
+<p>ahD = ancian-altgerman.</p>
+<p>n = nov, p. ex.:</p>
+<p>nhD = nov-altgerman.</p>
+<p>(b) Artificial lingues:</p>
+<p>Esp = Esperanto</p>
+<p>Ido = Ido</p>
+<p>Il = Interlingua</p>
+<p>IN = Idiom Neutral</p>
+<p>L.I. = lingue international</p>
+<p>LsF = Latino sine Flexione</p>
+<p>Nl = Novial</p>
+<p>Occ = Occidental</p>
+<p>RN = Reformneutral</p>
+<p>Vp = Volapük.</p>
+<h4><a class="header" href="#3-signes-por-li-chimic-elementes" id="3-signes-por-li-chimic-elementes">3. Signes por li chimic elementes.</a></h4>
+<table><thead><tr><th>Elemente</th><th>Signe</th></tr></thead><tbody>
+<tr><td>actinium</td><td>Ac</td></tr>
+<tr><td>aluminie</td><td>Al</td></tr>
+<tr><td>antimon (L stibium)</td><td>Sb</td></tr>
+<tr><td>argente</td><td>Ag</td></tr>
+<tr><td>argon</td><td>Ar</td></tr>
+<tr><td>arsen</td><td>As</td></tr>
+<tr><td>aure</td><td>Au</td></tr>
+<tr><td>azote = nitrogenie</td><td>(v. ti)</td></tr>
+<tr><td>barium</td><td>Ba</td></tr>
+<tr><td>beryllium</td><td>Be</td></tr>
+<tr><td>bismut</td><td>Bi</td></tr>
+<tr><td>bor</td><td>B</td></tr>
+<tr><td>brom</td><td>Br</td></tr>
+<tr><td>cadmium</td><td>Cd</td></tr>
+<tr><td>calcium</td><td>Ca</td></tr>
+<tr><td>carbon (eum)</td><td>C</td></tr>
+<tr><td>cassipopeium</td><td>Cp</td></tr>
+<tr><td>cer(ium)</td><td>Ce</td></tr>
+<tr><td>cesium</td><td>Cs</td></tr>
+<tr><td>c(h)lor</td><td>Cl</td></tr>
+<tr><td>c(h)rom</td><td>Co</td></tr>
+<tr><td>columbium = niobium</td><td>(v. ti)</td></tr>
+<tr><td>cupre</td><td>Cu</td></tr>
+<tr><td>dysprosium</td><td>Dy</td></tr>
+<tr><td>emanation</td><td>Em</td></tr>
+<tr><td>erbium</td><td>Er</td></tr>
+<tr><td>europium</td><td>Eu</td></tr>
+<tr><td>ferre</td><td>Fe</td></tr>
+<tr><td>fluor</td><td>F</td></tr>
+<tr><td>fosfor = phosphor</td><td>(v. ti)</td></tr>
+<tr><td>gadolinium</td><td>Gd</td></tr>
+<tr><td>gallium</td><td>Ga</td></tr>
+<tr><td>germanium</td><td>Ge</td></tr>
+<tr><td>hafnium</td><td>Hf</td></tr>
+<tr><td>helium</td><td>He</td></tr>
+<tr><td>holmium</td><td>Ho</td></tr>
+<tr><td>hydrarg(yre)</td><td>Hg</td></tr>
+<tr><td>hydrogen(ie)</td><td>H</td></tr>
+<tr><td>illinium</td><td>Il</td></tr>
+<tr><td>indium</td><td>In</td></tr>
+<tr><td>iod</td><td>J</td></tr>
+<tr><td>iridium</td><td>Ir</td></tr>
+<tr><td>kalium</td><td>K</td></tr>
+<tr><td>krypton</td><td>Kr</td></tr>
+<tr><td>lanthan</td><td>La</td></tr>
+<tr><td>lithium</td><td>Li</td></tr>
+<tr><td>lutetium = cassiopeium</td><td>(v. ti)</td></tr>
+<tr><td>magnesium</td><td>Mg</td></tr>
+<tr><td>mangan</td><td>Mn</td></tr>
+<tr><td>masurium</td><td>Ma</td></tr>
+<tr><td>mercurie = hydrarg</td><td>(v. ti)</td></tr>
+<tr><td>molybden</td><td>Mo</td></tr>
+<tr><td>natrium</td><td>Na</td></tr>
+<tr><td>neodynium</td><td>Nd</td></tr>
+<tr><td>neon</td><td>Ne</td></tr>
+<tr><td>nickel</td><td>Ni</td></tr>
+<tr><td>niobium</td><td>Nb</td></tr>
+<tr><td>niton = ematation</td><td>(v. ti)</td></tr>
+<tr><td>nitrogen(ie)</td><td>N</td></tr>
+<tr><td>osmium</td><td>Os</td></tr>
+<tr><td>oxigen(ie)</td><td>O</td></tr>
+<tr><td>palladium</td><td>Pd</td></tr>
+<tr><td>phosphor</td><td>P</td></tr>
+<tr><td>thorium</td><td>Th</td></tr>
+<tr><td>thulium</td><td>Tu</td></tr>
+<tr><td>titan</td><td>Ti</td></tr>
+<tr><td>uran</td><td>U</td></tr>
+<tr><td>vanadium</td><td>V</td></tr>
+<tr><td>wolfram</td><td>W</td></tr>
+<tr><td>xenon</td><td>Xe</td></tr>
+<tr><td>ytterbium</td><td>Yb</td></tr>
+<tr><td>yttrium</td><td>Y</td></tr>
+<tr><td>zinc</td><td>Zn</td></tr>
+<tr><td>zirconium</td><td>Zr</td></tr>
+<tr><td>platin</td><td>Pt</td></tr>
+<tr><td>plumbe</td><td>Pb</td></tr>
+<tr><td>polonium</td><td>Po</td></tr>
+<tr><td>praseudymium</td><td>Pr</td></tr>
+<tr><td>protactinium</td><td>Pa</td></tr>
+<tr><td>radium</td><td>Ra</td></tr>
+<tr><td>rhenium</td><td>Re</td></tr>
+<tr><td>rhodium</td><td>Rh</td></tr>
+<tr><td>rubidium</td><td>Rb</td></tr>
+<tr><td>ruthenium</td><td>Ru</td></tr>
+<tr><td>samarium</td><td>Sm</td></tr>
+<tr><td>scandium</td><td>Sc</td></tr>
+<tr><td>selen</td><td>Se</td></tr>
+<tr><td>silicium</td><td>Si</td></tr>
+<tr><td>stanno</td><td>Sn</td></tr>
+<tr><td>strontium</td><td>Si</td></tr>
+<tr><td>sulfur (sulphur)</td><td>S</td></tr>
+<tr><td>tantal</td><td>Ta</td></tr>
+<tr><td>tellur</td><td>Te</td></tr>
+<tr><td>terbium</td><td>Tb</td></tr>
+<tr><td>thallium</td><td>T</td></tr>
+</tbody></table>
+<p>In ti liste li abreviationes es trovabil presc in li just órdin alfabetic; solmen Sb es tre lontan del alfabetic plazza; vide it che «antimon».</p>
+<p>Ne recomandabil es li sequent signes national (grass print indica li just signe): A (= <em>Ar</em>, argon), Az (azote = <em>N</em>, nitrogen), Cb (columbium = <em>Nb</em>, niobium), Gl (glacinium = <em>Be</em>, beryllium), Lu (lutetium = <em>Cp</em>, cassiopeium), Nt (niton = <em>Em</em>, emanation). On mey scrir por dysprosium ne Ds, ma <em>Dy</em>; por samarium ne Sm, ma <em>Sa</em> por thulium ne Tm, ma <em>Tu</em>.</p>
+<h4><a class="header" href="#4-general-remarcas-al-abreviationes" id="4-general-remarcas-al-abreviationes">4. General remarcas al abreviationes.</a></h4>
+<p>On ne mey abuser li abreviationes. Lor mission es in general esser usat in sinopticas, tabelles, listes, formules etc e precipue in special ovres con exception del general abreviationes indicat supra in articul l. It es plu comod por li letor, trovar in li current textus tam poc abreviationes quam possibil.</p>
+<p>Talmen on mey usar p. ex. li abbreviationes Dr., Sr., Sra. (articul 1) solmen con un sequent nómin, ma ne stant sol; li abbreviationes a.c., EV., p.C. (articul 1) solmen pos numerós de annus; li abreviationes dC, dM, nr, nrs, pg (articul 1) solmen in combination con ciffres; li linguistic abreviationes (articul 2) solmen ante lingual exemples; li signes de chimic elementes (articul 3) solmen in formules etc.</p>
+<h3><a class="header" href="#k-signes-non-alfabetic" id="k-signes-non-alfabetic">K. Signes non alfabetic.</a></h3>
+<p><code>*</code> (asterisc) = (in general:) hant nascet in...; (in lingues mort:) ínatestat, ma conjectet; (in lingues modern:) neologisme.</p>
+<p><code>†</code> (crucette) = (in general:) mort in...; (in lingues:) arcaic, obsolet.</p>
+<p>On mey ne usar ti du signes por ped-notes.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../grammatica-centennial/janotta/4-Composition.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../grammatica-centennial/haas/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../../grammatica-centennial/janotta/4-Composition.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../../grammatica-centennial/haas/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script src="https://occidental-lang.com/website-word-lookup/lookup.js"></script>
+        <script>
+            lookupInit('https://occidental-lang.com/website-word-lookup/dict.json');
+        </script>
+        
+
+    </body>
+</html>

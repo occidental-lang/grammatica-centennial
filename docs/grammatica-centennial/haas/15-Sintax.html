@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+<html lang="ie" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sintax - Grammatica Centennial</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Li max complet grammatica de Occidental (Interlingue) por li centennial.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="../../favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="../../favicon.png">
+        
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        
+
+        <div id="definition"></div>
+
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "ayu" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">Grammatica Centennial</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/index.html"><strong aria-hidden="true">1.</strong> Complet Grammatica de Occidental</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/0-Preface.html"><strong aria-hidden="true">2.</strong> Preface</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/1-Fonologie.html"><strong aria-hidden="true">3.</strong> Fonologie</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/2-Flexion.html"><strong aria-hidden="true">4.</strong> Flexion</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/3-Derivation.html"><strong aria-hidden="true">5.</strong> Derivation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/4-Composition.html"><strong aria-hidden="true">6.</strong> Composition</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/5-Orthographie.html"><strong aria-hidden="true">7.</strong> Orthographie</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/index.html"><strong aria-hidden="true">8.</strong> Grammatica de Interlingue</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/00-Anteparol.html"><strong aria-hidden="true">9.</strong> Anteparol</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/01-Alfabet.html"><strong aria-hidden="true">10.</strong> Alfabet</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/02-Pronunciation.html"><strong aria-hidden="true">11.</strong> Pronunciation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/03-Accentuation.html"><strong aria-hidden="true">12.</strong> Accentuation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/04-Ortografie.html"><strong aria-hidden="true">13.</strong> Ortografie</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/05-Articul.html"><strong aria-hidden="true">14.</strong> Articul</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/06-Substantive.html"><strong aria-hidden="true">15.</strong> Substantive</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/07-Adjective.html"><strong aria-hidden="true">16.</strong> Adjective</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/08-Pronómines.html"><strong aria-hidden="true">17.</strong> Pronómines</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/09-Numerales.html"><strong aria-hidden="true">18.</strong> Numerales</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/10-Verb.html"><strong aria-hidden="true">19.</strong> Verb</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/11-Adverbies.html"><strong aria-hidden="true">20.</strong> Adverbies</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/12-Prepositiones.html"><strong aria-hidden="true">21.</strong> Prepositiones</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/13-Conjunctiones.html"><strong aria-hidden="true">22.</strong> Conjunctiones</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/14-Interjectiones.html"><strong aria-hidden="true">23.</strong> Interjectiones</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/15-Sintax.html" class="active"><strong aria-hidden="true">24.</strong> Sintax</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/16-Interpunction.html"><strong aria-hidden="true">25.</strong> Interpunction</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/17-Parolformation.html"><strong aria-hidden="true">26.</strong> Parolformation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/18-Frases-sistematic.html"><strong aria-hidden="true">27.</strong> Frases sistematic</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/19-vermen-international.html"><strong aria-hidden="true">28.</strong> Li lingue vermen international</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Grammatica Centennial</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <div id="langPicker"></div>
+                        
+                        <a href="https://github.com/occidental-lang/grammatica-centennial" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#sintax" id="sintax">SINTAX</a></h1>
+<h2><a class="header" href="#-108" id="-108">§ 108</a></h2>
+<p>Li <strong>position</strong> del paroles in li frase es in general <strong>líber</strong> til un cert gradu. Ma li <strong>regulari órdine</strong> del frase-partes es:</p>
+<table><thead><tr><th>subject</th><th>predicate</th><th>acusativ object</th><th>dativ object</th></tr></thead><tbody>
+<tr><td>Li patre</td><td>da</td><td>li libre</td><td>al filio.</td></tr>
+</tbody></table>
+<h2><a class="header" href="#-109" id="-109">§ 109</a></h2>
+<p>Li frase es maxim bon comprensibil, si omni paroles sta maxim possibil proxim li parol a quel ili relate. Pro to omni frasepartes es ínmediatmen sequet o precedet de su atributes.</p>
+<p><em>Li bon patre sovente voluntarimen da bell libres a su diligent filio.</em></p>
+<h2><a class="header" href="#-110" id="-110">§ 110</a></h2>
+<p>De to seque, que li <strong>adjective</strong> o atribut adjectivic deve preceder o sequer ínmediatmen li substantive relativ. In general it precede, si it es curt o caracteristic, ma seque, si it es long o complementari.</p>
+<p><em>Il prefere li delicat fructes del Sud. Ti mann, clar in su pensas e pur in su intentiones. Su patre e su matre hat fat omni arangeamentes necessi por su viage. Yo just nu recivet li maxim recent raport aproximativ pri merces, importat in nor land durante ti estive.</em></p>
+<h2><a class="header" href="#-111" id="-111">§ 111</a></h2>
+<p>Li <strong>adverbies: ne, tre, tro, solmen</strong> e <strong>anc</strong> deve sempre <strong>preceder ínmediatmen</strong> li parol concernent, che témpores composit ordinarimen li verb auxiliari; li altri adverbies posse ínmediatmen preceder o sequer li parol concernent.</p>
+<p><em>Ne <strong>yo</strong> ha prendet vor libre — ma un <strong>altri</strong> person.</em></p>
+<p><em>Yo ne <strong>ha</strong> prendet vor libre — ma yo <strong>va</strong> prender it.</em></p>
+<p><em>Yo ha ne <strong>prendet</strong> vor libre — ma on ha <strong>dat</strong> it a me.</em></p>
+<p><em>Yo ha prendet ne <strong>vor</strong> libre — ma un <strong>altri</strong>.</em></p>
+<p><em>Anc <strong>yo</strong> ama vos. Yo anc <strong>ama</strong> vos. Yo ama anc <strong>vos</strong>.</em></p>
+<h2><a class="header" href="#-112" id="-112">§ 112</a></h2>
+<p>Li <strong>verbes auxiliari</strong> (anc: dever, posser, voler etc.) deve sempre preceder li participie respectivmen li infinitive ínmediatmen, o esser separat solmen per concernent adverbies.</p>
+<p><em>Nor amícos hat mult laborat, ma ne posset completmen finir lor ovre. Yo deve aprender ex memorie ti paroles. Yo deve rapidmen aprender ex memorie ti paroles. Yo strax deve aprender ex memorie ti paroles.</em></p>
+<h2><a class="header" href="#-113" id="-113">§ 113</a></h2>
+<p>Negativ pronómines e adverbies recive li sens positiv solmen si <strong>ne</strong> sta ínmediatmen avan les. Li talnominat duplic negation es permisset, ma ne recomendat.</p>
+<p><em>Yo videt necos. Yo ne videt necos. Yo videt ne necos, ma solmen tre poc.</em></p>
+<h2><a class="header" href="#-114" id="-114">§ 114</a></h2>
+<p>Anc in li <strong>frases relativ</strong> on usa li <strong>sam órdine</strong> del frase-partes e li indicative quam in li frases principal. Li subjuntive es usat solmen in rar casus u li distinction es important, p. ex. in juristic documentes; in cert casus on posse anc usar li optative.</p>
+<p><em>Il di, que il es malad. Il pensat que yo ha venit. On esperat, que il bentost va venir. Ella questionat, pro quo yo es tam gay. Il di, que il haye amat la. Yo desira que il mey venir.</em></p>
+<p>Por indicar li <strong>condition</strong>, on deve sempre usar: <strong>si</strong>.</p>
+<p><em>Si ella vell har savet, quo ella save hodíe, ella vell har actet altrimen. Si yo vell esser malad, yo vell restar in hem.</em></p>
+<p><strong>Indirect frases</strong> es comensat per: <strong>ca</strong> (viceat sovente per <strong>esque</strong>).</p>
+<p><em>Yo ne save, ca yo comprende vos corect. Ca il veni o ne, noi va comensar. Esque vu savet, ca il va venir? Si on vell saver, ca il veni!</em></p>
+<p>Por <strong>vicear relativ frases</strong> on posse multvez usar li infinitive ínmediatmen pos li verb.</p>
+<p><em>Yo crede que yo ha videt le. Yo crede har videt le. Yo crede vider le.</em></p>
+<h2><a class="header" href="#-115" id="-115">§ 115</a></h2>
+<p>Li <strong>acusativ pronómin</strong> seque ínmediatmen li verb; li <strong>dativ pronómin</strong> precede it ínmediatmen o seque li acusativ pronómin, con o sin li preposition <strong>a</strong>.</p>
+<p><em>Yo videt le. Yo te dat it. Yo dat it te. Yo dat it a te.</em></p>
+<h2><a class="header" href="#-116" id="-116">§ 116</a></h2>
+<p>Li regules indicat por frases direct vale anc por <strong>frases interrogativ</strong> queles es format per <strong>esque</strong> o altri paroles interrogativ. Sin li “esque” on posse formar frases interrogativ per posir li subjecte pos li predicate, resp. pos li verb auxiliari.</p>
+<p><em>Esque vu ha comprendet me? Ha vu comprendet me? Quant persones tu crede vider? Crede tu vider mult persones? Qui tu vide? Qui vide te? Posse vu audir me? Pensa vu o dormi?</em></p>
+<h2><a class="header" href="#-117" id="-117">§ 117</a></h2>
+<p>Verbes es usat maxim possibil <strong>transitivmen, personalmen</strong> e <strong>activ</strong>; ma it sempre es permisset usar un sensconform preposition.</p>
+<p><em>Yo mersía vos. Ples auxiliar li povri mann. Il menaciat su ínamicos. Yo memora li cose tre bon. Il prepara un viage. Il prepara se por un viage. To il solmen imágina. Yo es conscient pri to. Yo senti dolore. Yo regreta. Yo cale, yo frige. Yo successat far it. On dansat e ludet.</em></p>
+<p>Ye li impersonal verbes li pronómin <strong>it</strong> posse esser omisset, si li sens permisse to.</p>
+<p><em>Yo crede que pluvia. Existe mult exceptiones. Pluvia. It pluvia. It deveni frigid (li temperatura o un cert cose).</em></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../grammatica-centennial/haas/14-Interjectiones.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../grammatica-centennial/haas/16-Interpunction.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../../grammatica-centennial/haas/14-Interjectiones.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../../grammatica-centennial/haas/16-Interpunction.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script src="https://occidental-lang.com/website-word-lookup/lookup.js"></script>
+        <script>
+            lookupInit('https://occidental-lang.com/website-word-lookup/dict.json');
+        </script>
+        
+
+    </body>
+</html>

@@ -1,0 +1,470 @@
+<!DOCTYPE HTML>
+<html lang="ie" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Parolformation - Grammatica Centennial</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Li max complet grammatica de Occidental (Interlingue) por li centennial.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="../../favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="../../favicon.png">
+        
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        
+
+        <div id="definition"></div>
+
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "ayu" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">Grammatica Centennial</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/index.html"><strong aria-hidden="true">1.</strong> Complet Grammatica de Occidental</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/0-Preface.html"><strong aria-hidden="true">2.</strong> Preface</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/1-Fonologie.html"><strong aria-hidden="true">3.</strong> Fonologie</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/2-Flexion.html"><strong aria-hidden="true">4.</strong> Flexion</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/3-Derivation.html"><strong aria-hidden="true">5.</strong> Derivation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/4-Composition.html"><strong aria-hidden="true">6.</strong> Composition</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/5-Orthographie.html"><strong aria-hidden="true">7.</strong> Orthographie</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/index.html"><strong aria-hidden="true">8.</strong> Grammatica de Interlingue</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/00-Anteparol.html"><strong aria-hidden="true">9.</strong> Anteparol</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/01-Alfabet.html"><strong aria-hidden="true">10.</strong> Alfabet</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/02-Pronunciation.html"><strong aria-hidden="true">11.</strong> Pronunciation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/03-Accentuation.html"><strong aria-hidden="true">12.</strong> Accentuation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/04-Ortografie.html"><strong aria-hidden="true">13.</strong> Ortografie</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/05-Articul.html"><strong aria-hidden="true">14.</strong> Articul</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/06-Substantive.html"><strong aria-hidden="true">15.</strong> Substantive</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/07-Adjective.html"><strong aria-hidden="true">16.</strong> Adjective</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/08-Pronómines.html"><strong aria-hidden="true">17.</strong> Pronómines</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/09-Numerales.html"><strong aria-hidden="true">18.</strong> Numerales</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/10-Verb.html"><strong aria-hidden="true">19.</strong> Verb</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/11-Adverbies.html"><strong aria-hidden="true">20.</strong> Adverbies</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/12-Prepositiones.html"><strong aria-hidden="true">21.</strong> Prepositiones</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/13-Conjunctiones.html"><strong aria-hidden="true">22.</strong> Conjunctiones</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/14-Interjectiones.html"><strong aria-hidden="true">23.</strong> Interjectiones</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/15-Sintax.html"><strong aria-hidden="true">24.</strong> Sintax</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/16-Interpunction.html"><strong aria-hidden="true">25.</strong> Interpunction</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/17-Parolformation.html" class="active"><strong aria-hidden="true">26.</strong> Parolformation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/18-Frases-sistematic.html"><strong aria-hidden="true">27.</strong> Frases sistematic</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/19-vermen-international.html"><strong aria-hidden="true">28.</strong> Li lingue vermen international</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Grammatica Centennial</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <div id="langPicker"></div>
+                        
+                        <a href="https://github.com/occidental-lang/grammatica-centennial" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#parolformation" id="parolformation">PAROLFORMATION</a></h1>
+<h2><a class="header" href="#-124" id="-124">§ 124</a></h2>
+<p><strong>Nov paroles</strong> es format per</p>
+<ol>
+<li>
+<p>Adjuntion de desinenties.</p>
+</li>
+<li>
+<p>Adjuntion de prefixes.</p>
+</li>
+<li>
+<p>Adjuntion de sufixes.</p>
+</li>
+<li>
+<p>Composition de du o pluri paroles.</p>
+</li>
+</ol>
+<h1><a class="header" href="#desinenties" id="desinenties">DESINENTIES</a></h1>
+<h2><a class="header" href="#-125" id="-125">§ 125</a></h2>
+<p>Li adjuntion de desinenties es ja tractat in li concernent paragrafes del grammatica:</p>
+<ol>
+<li>
+<p>Desinenties substantivic: </p>
+</li>
+<li>
+<p><strong>-e</strong>   (§ <a href="06-Substantive#-22">22</a>, <a href="07-Adjective#-30">30</a>, <a href="10-Verb#-87">87</a>)</p>
+</li>
+<li>
+<p><strong>-a</strong>    (§ <a href="06-Substantive#-24">24</a>, <a href="07-Adjective#-30">30</a>, <a href="10-Verb#-87">87</a>)</p>
+</li>
+<li>
+<p><strong>-o</strong>    (§ <a href="06-Substantive#-24">24</a>, <a href="07-Adjective#-30">30</a>)</p>
+</li>
+<li>
+<p><strong>-u</strong>    (§ <a href="06-Substantive#-25">25</a>) <strong>-um</strong> (§ <a href="07-Adjective#-31">31</a>)</p>
+</li>
+<li>
+<p>Desinenties adjectivic: <strong>-i</strong>    (§ <a href="07-Adjective#-29">29</a>).</p>
+</li>
+<li>
+<p>Desinenties adverbial: <strong>-e</strong>    (§ <a href="10-Verb#-74">74</a>) <strong>-men</strong> (§ <a href="11-Adverbies#-90">90</a>).</p>
+</li>
+</ol>
+<h2><a class="header" href="#-126" id="-126">§ 126</a></h2>
+<p>Ti desinenties es un consequentie del <strong>caracterisant vocales final</strong> de Interlingue:</p>
+<p><strong>-e</strong> es li finale general, sin special signification, usat por fixar li corect pronunciation del precedent consonant, pro eufonie o distinction de simil paroles (precipue de substantives del egalform adjective).</p>
+<p><em>Pace, image, rose, libre, cable, altruisme, curve, centre, central, centrale, directiv, directive, marine, circulare, cantate, infinite, tangente, adherente, manjante, denove.</em></p>
+<p><strong>-a</strong> trova se in paroles indicant activitá, loc o témpor de it, alquó extendet, universal, colectiv, con vivent entes lu feminin.</p>
+<p><em>dansa, dansada, plazza, imperia, era, pasca, rosiera, liga, secta, posta, americana, filia, studianta, cavalla.</em></p>
+<p><strong>-o</strong> trova se in paroles indicant lu concret, material, special, individual, con vivent entes lu masculin.</p>
+<p><em>forso, humo, rosiero, posto, americano, filio, cavallo.</em></p>
+<p><strong>-u</strong> indica alquó abstract, neutri, un relativitá, o es usat por reciver li international derivates.</p>
+<p><em>statu, casu, unaltru, manu, gradu.</em></p>
+<p><strong>-i</strong> es li finale adjectivic, por fixar li corect pronunciation del consonant final, pro eufonie o por distinction de simil paroles.</p>
+<p><em>felici, sagi, porosi, organisatori, amari, curvi, vacui.</em></p>
+<p><strong>e, a, o, u, i</strong>: <em>rose, rosi, rosiero, rosiera; porte, porta, portu, portuari, portale; posta, posto.</em></p>
+<h1><a class="header" href="#prefixes" id="prefixes">PREFIXES</a></h1>
+<h2><a class="header" href="#-127" id="-127">§ 127</a></h2>
+<p>In mult international parolformationes li prefixes e prefixial expressiones perdi su ultim consonant o assimila it al sequent consonant; in ti casu duplic consonantes es viceat secun <a href="04-Ortografie#-10">§ 10</a> per simplics, exceptet pos ín- (ma anc li altri ortografies es permisset).</p>
+<p><em>adtracter — attracter — atracter, conlaborar — collaborar — colaborar, conoperativ — cooperativ, conposition — composition, disfuser — diffuser — difuser, exmigrar — emmigrar — emigrar, coneducation — coeducation, ínregulari — irregulari, ínlegal — illegal.</em></p>
+<h2><a class="header" href="#-128" id="-128">§ 128</a></h2>
+<p>Li <strong>prefixes</strong> es:</p>
+<p><strong>bel-</strong>: parentitá per maritage: belfratre, belfilio.</p>
+<p><strong>des-</strong>: cessation, contrarie: desabonnar, desinfecter, desavantage.</p>
+<p><strong>dis-</strong>: separation, dispersion: dismembrar, dissemar.</p>
+<p><strong>ex-</strong>: ancian: expresidente, eximperator.</p>
+<p><strong>ho-</strong>: sam témpor: hodíe, hosemane, hoannu.</p>
+<p><strong>ín-</strong>: negation in adjectives: ínoficial, ínvisibil (ne a confuser al inaccentuat preposition: in-: inpaccar).</p>
+<p><strong>mi-</strong>: curt form de demí: midí, minocte, mihor, mifratre.</p>
+<p><strong>mis-</strong>: fals, ínconvenient, fallient: miscomprender, misalliantie, misdirecter.</p>
+<p><strong>non-</strong>: negation in substantives: nonsens, nonfumator.</p>
+<p><strong>per-</strong>: tra, til fine: perforar, percurrer.</p>
+<p><strong>pre-</strong>: in ante, avan: previder, preparar, prehistorie, presider.</p>
+<p><strong>pro-</strong>: ad avan, ad extra: progression, producter.</p>
+<p><strong>re-</strong>: denove, ad comensa: revider, revenir.</p>
+<p><strong>step-</strong>: parentitá per un duesim maritage: stepmatre, stepfilio.</p>
+<h2><a class="header" href="#-129" id="-129">§ 129</a></h2>
+<p>Quam prefixes on usa anc <strong>prepositiones, adverbies e li presente</strong> de quelc verbes:</p>
+<p><em>adaptar, abreviar, atirar, antedatar, avanbrass, circumscription, consentir, coeducation, coroder, compresser, contrasignar, depender, excluder, expectar, extraordinari, forear, infiltrar, iluminar, importar, intervenir, preterpassar, retromarchar, retroactiv, selfconfidentie, submisser, transportar, transpirar, tradition, ultraclerical, vicepresidente, parapluvie, portamoné, tirabuton.</em></p>
+<h2><a class="header" href="#-130" id="-130">§ 130</a></h2>
+<p>Mult international paroles es format per <strong>grec prefixes</strong>:</p>
+<p><em>decametre, decilitre, hectolitre, hemisfere, hipermodern, kilometre, monoplan, panslavisme, pseudocrist, telefonar.</em></p>
+<h1><a class="header" href="#sufixes" id="sufixes">SUFIXES</a></h1>
+<h2><a class="header" href="#-131" id="-131">§ 131</a></h2>
+<p>Li sufixes adjunte se al radica ínmediatmen o med vocales o consonantes ligativ. In infra es indicat li complet finales, ma sin alquel desinenties facultativ.</p>
+<blockquote>
+<p>On posse adjunter pluri sufixes in li sam parol.</p>
+</blockquote>
+<h2><a class="header" href="#-132" id="-132">§ 132</a></h2>
+<p>In mult international parolformationes existe un <strong>contraction</strong> de du simil succedent sones o songruppes a un sol.</p>
+<p><em>p. ex. minera(lo)logie, popular(i)isar, pacif(ic)isme, infanter(i)ist, ambiti(on)osi, religi(on)osi, ident(ic)itá, nu(tri)tresse, mum(i)ificar.</em></p>
+<h2><a class="header" href="#-133" id="-133">§ 133</a></h2>
+<p><strong>Taxant sufixes</strong></p>
+<p><strong>-ett</strong>: diminutive, frequentative, micri objectes: filietto, statuette, cigarrette, pincette, inflammette, rosette, foliettar, volettar, saltettar.</p>
+<p><strong>-illio, -innia</strong>: caressiv: fratrillio, matrinnia, carinnia.</p>
+<p><strong>-issim</strong>: in maxim alt gradu: grandissim, bellissim.</p>
+<p><strong>-ach</strong>: pejorativ, despreciant: cavallacho, linguache, criticachar.</p>
+<h1><a class="header" href="#verbal-sufixes" id="verbal-sufixes">Verbal sufixes</a></h1>
+<h2><a class="header" href="#-134" id="-134">§ 134</a></h2>
+<p><strong>Finale -ar</strong></p>
+<p>Omni modern formationes de verbes fini per -ar, ne per -ir e ne per -er. Li maxim mult verbes es derivat de altri paroles per li <strong>ínmediat derivation</strong>, to es per adjunter li finale del infinitive <strong>-ar</strong>, sin sufix.</p>
+<blockquote>
+<p>Ti verbes derivat have divers significationes:</p>
+</blockquote>
+<ol>
+<li>
+<p>de objectes, materiales, abstractes: provider per: coronar, armar, motivar.</p>
+</li>
+<li>
+<p>de utensiles, instrumentes: usar, tractar per: brossar, martellar.</p>
+</li>
+<li>
+<p>de organic productes: secreer it: lactar, ovar, sanguar.</p>
+</li>
+<li>
+<p>de persones e entes: acter quam: dominar, serpentar.</p>
+</li>
+<li>
+<p>de adjectives e participies (sovente con prepositiones): far tal: plenar, siccar, exsiccar, abellar, calentar, sedentar.</p>
+</li>
+</ol>
+<p>In mult casus existe altri relationes internationalmen conosset: beson, <strong>besonar, cure, curar, risca, riscar, don, donar, matur, maturar.</strong></p>
+<h2><a class="header" href="#-135" id="-135">§ 135</a></h2>
+<p><strong>Altri verbal finales</strong></p>
+<p><strong>-isar</strong>: far tal, far quam: electrisar, idealisar, canalisar, terrorisar, rivalisar, judeisar.</p>
+<p><strong>-ificar</strong>: far tal, constatar quam: verificar, simplificar, mumificar, pacificar. forma anc adjectives: pacific, magnific, specific.</p>
+<p><strong>-ijar</strong>: devenir, far se: verdijar, rubijar.</p>
+<p><strong>-ear</strong>: statu dinamic de vade e retro: flammear, verdear, undear.</p>
+<h2><a class="header" href="#-136" id="-136">§ 136</a></h2>
+<p><strong>Sufixes por verbal substantives</strong></p>
+<ol>
+<li>adjuntet al <strong>tema perfectic</strong> secun <a href="10-Verb#-80">§ 80</a>:</li>
+</ol>
+<p><strong>-ion</strong>: action, anc resultat e loc de it: administration, expedition, construction, distribution, explosion.</p>
+<p><strong>-or</strong>: actent person, cose o factor: administrator, expeditor, distributor, constructor, ventilator, compressor, divisor.</p>
+<p><strong>-ura</strong>: concretisat action e su resultate: reparatura, garnitura, lectura, creatura.</p>
+<ol start="2">
+<li>adjuntet <strong>al tema presentic</strong> secun <a href="10-Verb#-84">§ 84</a>:</li>
+</ol>
+<p>-ment: concret action o su resultate, o servient a, servient quam: fundament, nutriment, movement.</p>
+<ol start="3">
+<li>adjuntet al radica verbal secun <a href="10-Verb#-85">§ 85</a>:</li>
+</ol>
+<p>-ida (verbes in -ar: -ada): action in durada: promenada, perdida, currida.</p>
+<ol start="4">
+<li>adjuntet al participie presentic secun <a href="10-Verb#-82">§ 82</a>:</li>
+</ol>
+<p>-ie: statú in durada: tolerantie, provenientie, existentie.</p>
+<h2><a class="header" href="#-137" id="-137">§ 137</a></h2>
+<p><strong>Personal sufixes</strong></p>
+<p><strong>-er-</strong>: person professional: molinero, lavera, librero, vitrero.</p>
+<p><strong>-ist</strong>: person ocupant se pri, adherente de: calvinist, socialist, librist, telegrafista.</p>
+<p><strong>-or</strong>: cp. <a href="17-Parolformation#-136">§ 136</a>.</p>
+<p><strong>-ari-</strong>: person caracterisat per alquó external, p. ex. un function: millionario, functionaria, bibliotecario, pensionaria.</p>
+<p><strong>-on</strong>: person caracterisat per un intern o natural qualitá: dormon, savagion, spiona, pedon.</p>
+<p><strong>-ard</strong>: persones con mal qualitá: falsard, dinamitard, mentard.</p>
+<p><strong>-astr-</strong>: persones de valore interiori: medicastro, poetastra.</p>
+<p><strong>-es-</strong>: habitante (anc adjectivic): francese, franceso, francesa, francesi, borgeso.</p>
+<p><strong>-ane, -ano, -ana</strong>: cp. <a href="17-Parolformation#-140">§ 140</a>.</p>
+<p><strong>-essa</strong>: féminas con special dignitá o function: princessa, diaconessa, actressa, imperatressa.</p>
+<p><strong>-ell</strong>: yun animale: agnell, leonello.</p>
+<h2><a class="header" href="#-138" id="-138">§ 138</a></h2>
+<p><strong>Qualitativ sufixes</strong></p>
+<p><strong>-ie</strong>: abstract substantives, statu (cp. § <a href="10-Verb#-82">82</a>, <a href="17-Parolformation#-136">136</a>): anatomie, maladie, elegantie, existentie, furie, tirannie.</p>
+<p><strong>-itá</strong> (-etá, si li radica fini per i): qualitá: homanitá, yunitá, quantitá, proprietá, ebrietá.</p>
+<p><strong>-ore</strong>: de verbes: statu, de adjectives: qualitá mesurabil: amore, terrore, calore, longore, grandore.</p>
+<p><strong>-esse</strong>: pregnant qualitá o statu: altesse, grandesse, finesse, yunesse, delicatesse.</p>
+<h2><a class="header" href="#-139" id="-139">§ 139</a></h2>
+<p><strong>Local e colectiv sufixes</strong></p>
+<p><strong>-ia</strong>: loc, land: dormitoria, Germania, dominia, abatia.</p>
+<p><strong>-eríe</strong>: profession e su productes (-er + -ie), metaforicmen anc maniere de acter, caractere: vitreríe, potteríe, bigotteríe, diaboleríe.</p>
+<p><strong>-ería</strong>: loc de profession (-er + -ia): librería, juvelería, vitrería.</p>
+<p><strong>-iera</strong>: vast loc contenent alquo: torfiera, pisciera, rosiera.</p>
+<p><strong>-iere</strong>: vase etc. contenent alquo: incriere, tabaciere, butoniere.</p>
+<p><strong>-iero</strong>: portant alquo: rosiero, candeliero, pomiero.</p>
+<p><strong>-atu</strong>: institution o situation social o legal, dignitá, anc loc, témpor o dominia de it: viduatu, proletariatu, secretariatu, califatu, episcopatu.</p>
+<p><strong>-uore</strong>: loc, utensil: trottuore, lavuore, reservuore, tiruore.</p>
+<p><strong>-ade</strong>: multitá, serie, contenida: colonade, boccade, olimpiade.</p>
+<p><strong>-allia</strong>: colectives sin órdine, o despreciativ: antiquallia, ferrallia, canallia.</p>
+<p><strong>-age</strong>: colectives con órdine, coses fat de: foliage, plumage, boscage, tonnage, plantage, lanage, linage.</p>
+<p>de verbes: activitá, precipue industrial o professional, anc su resultate, loc o témpor, anc li custas por it: <strong>rafinage, abordage, luage, viage, doanage.</strong></p>
+<p><strong>-arium</strong>: colection ordinat, precipue scientic o tecnic: herbarium, planetarium, aquarium, rosarium.</p>
+<p><strong>-ité</strong> (-eté, si li radica fini per i); totalité de persones o coses: homanité, yunité, societé.</p>
+<p><strong>-un</strong>: singul exemplare: grelun, sablun, scalun.</p>
+<h2><a class="header" href="#-140" id="-140">§ 140</a></h2>
+<p><strong>Adjectivic sufixes</strong></p>
+<p>(Li concernent substantives, format per desinenties substantivic, es indicat in parenteses.)</p>
+<p><strong>-al</strong>: general adjectivic relation: musical, cordial, central (centrale), ideal (ideale).</p>
+<p><strong>-ic</strong>: essent tal: metallic, fanatic (fanatico), fantastic, scientic.</p>
+<p>Grec substantives finient per <strong>-ma</strong> intercala <strong>-t-</strong>, tales finient per <strong>-se</strong> (x = cs) muta li <strong>s</strong> in <strong>t</strong>: <strong>problematic, dramatic, elipse, eliptic, hipnose, hipnotic, sintax, sintactic (sintactico)</strong>.</p>
+<p>Per <strong>-ica</strong> on indica scienties o artes, per <strong>-ico</strong> lor executores: <strong>fisic, fisica, fisico, aviatica, aviatico, politic, politica, politico.</strong></p>
+<p><strong>-an</strong>: apartenent a: american (americano, americana, americanes), homan.</p>
+<p><strong>-at</strong> (pos substantives): providet per: barbat, foliat, talentat (talentate).</p>
+<p><strong>-ut</strong>: tro rich in, exuberant: barbut (barbute), armut, sandut.</p>
+<p><strong>-osi</strong>: rich in, havent: famosi, musculosi, respectosi, spinosi.</p>
+<p><strong>-aci</strong>: inclinat a: mordaci, tenaci, vivaci.</p>
+<p><strong>-ari</strong>: conform a, convenient a: populari, regulari, militari (militare).</p>
+<p><strong>-atri</strong>: simil a: spongiatri, verdatri.</p>
+<p><strong>-esc</strong>: amemorant a, in maniere de: infantesc (infantesco), gigantesc.</p>
+<p><strong>-in</strong>: consistent de, provenient de: argentin, alpin, matrin, svinin (svinine).</p>
+<p><strong>-iv</strong> (adjuntet al tema perfectic secun <a href="10-Verb#-80">§ 80</a>): actent talmen, capabil: decorativ, obligativ, consolativ, definitiv, constructiv, ofensiv (ofensive), directiv (directive), alternativ (alternative).</p>
+<p><strong>-ori</strong> (adjuntet al tema perfectic secun <a href="10-Verb#-80">§ 80</a>): destinat a, devent acter talmen (adjective de -or): decoratori, obligatori, consolatori, ilusori, preparatori, instructori.</p>
+<p><strong>-ibil</strong> (verbes in -ar: -abil, cp. <a href="10-Verb#-85">§ 85</a>): de verbes transitiv: quo on posse far, de verbes íntransitiv: quo posse far: formabil, audibil, íncredibil, visibil, explosibil, combustibil (combustibile).</p>
+<p><strong>-nd</strong> (verbes in -ir: -end) adjuntet al tema presentic: a far: leend, dividend (dividende).</p>
+<h2><a class="header" href="#-141" id="-141">§ 141</a></h2>
+<p>Mult paroles international contene <strong>grec e latin afixes</strong>:</p>
+<p><strong>ab-</strong>: for: abducter.</p>
+<p><strong>anti-</strong>: contra: anticrist, antisocial.</p>
+<p><strong>arch(i)-</strong>: gradu maxim superiori: archangel, archiepiscop, archifripon.</p>
+<p><strong>auto-</strong>: self: automobile, autodidacte.</p>
+<p><strong>pseudo-</strong>: fals, semblant: pseudoscientie, pseudocrist, pseudomala-die.</p>
+<p><strong>-isme</strong>: doctrin, sistema, movement: catolicisme, centralisme, socialisme.</p>
+<p><strong>-oid</strong>: simil: negroid (negroide), elipsoid.</p>
+<h2><a class="header" href="#-142" id="-142">§ 142</a></h2>
+<p>Ultra li indicat <strong>productiv afixes</strong> existe quelc <strong>ínproductiv afixes</strong>, queles ne forma nov paroles, ma explica existent paroles international. P. ex.: <strong>-id, -ore</strong>.</p>
+<p><em>friger, frigid, frigore, valer, valid, valore, riger, rigid, rigore, rigiditá, rigorosí, rigorositá.</em></p>
+<h1><a class="header" href="#parol-composition" id="parol-composition">PAROL-COMPOSITION</a></h1>
+<h2><a class="header" href="#-143" id="-143">§ 143</a></h2>
+<p>Maxim frequent es li metode plazzar li complement sin preposition avan li substantive resp. li verb, con o sin strec ligativ.</p>
+<p><em>scri-table = table por scrir, vent-moline = moline movet del vent, chapel-bux, nota-librette, postcarte, scrimachine, tippmachine, mult-lateral, circumnavigar, contraproposition.</em></p>
+<p>In nov-formationes it es recomendat ligar li du paroles per un strec ligativ. In compositiones ja international li du paroles multvez es ligat per un <strong>o</strong> o <strong>i</strong>.</p>
+<p><em>ferrovia, agricultura, uníform, li uniforme, aeroplan, electromotor.</em></p>
+<p>Pro simplicitá e plu grand comprensibilitá e claritá it recomenda se in mult casus usar atributes vice compositiones.</p>
+<p><em>animale domestic, premie de assecurantie, comunication per vapornaves.</em></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../grammatica-centennial/haas/16-Interpunction.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../grammatica-centennial/haas/18-Frases-sistematic.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../../grammatica-centennial/haas/16-Interpunction.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../../grammatica-centennial/haas/18-Frases-sistematic.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script src="https://occidental-lang.com/website-word-lookup/lookup.js"></script>
+        <script>
+            lookupInit('https://occidental-lang.com/website-word-lookup/dict.json');
+        </script>
+        
+
+    </body>
+</html>

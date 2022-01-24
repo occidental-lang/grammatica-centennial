@@ -1,0 +1,467 @@
+<!DOCTYPE HTML>
+<html lang="ie" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Verb - Grammatica Centennial</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Li max complet grammatica de Occidental (Interlingue) por li centennial.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="../../favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="../../favicon.png">
+        
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        
+
+        <div id="definition"></div>
+
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "ayu" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">Grammatica Centennial</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/index.html"><strong aria-hidden="true">1.</strong> Complet Grammatica de Occidental</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/0-Preface.html"><strong aria-hidden="true">2.</strong> Preface</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/1-Fonologie.html"><strong aria-hidden="true">3.</strong> Fonologie</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/2-Flexion.html"><strong aria-hidden="true">4.</strong> Flexion</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/3-Derivation.html"><strong aria-hidden="true">5.</strong> Derivation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/4-Composition.html"><strong aria-hidden="true">6.</strong> Composition</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/5-Orthographie.html"><strong aria-hidden="true">7.</strong> Orthographie</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/index.html"><strong aria-hidden="true">8.</strong> Grammatica de Interlingue</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/00-Anteparol.html"><strong aria-hidden="true">9.</strong> Anteparol</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/01-Alfabet.html"><strong aria-hidden="true">10.</strong> Alfabet</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/02-Pronunciation.html"><strong aria-hidden="true">11.</strong> Pronunciation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/03-Accentuation.html"><strong aria-hidden="true">12.</strong> Accentuation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/04-Ortografie.html"><strong aria-hidden="true">13.</strong> Ortografie</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/05-Articul.html"><strong aria-hidden="true">14.</strong> Articul</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/06-Substantive.html"><strong aria-hidden="true">15.</strong> Substantive</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/07-Adjective.html"><strong aria-hidden="true">16.</strong> Adjective</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/08-Pronómines.html"><strong aria-hidden="true">17.</strong> Pronómines</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/09-Numerales.html"><strong aria-hidden="true">18.</strong> Numerales</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/10-Verb.html" class="active"><strong aria-hidden="true">19.</strong> Verb</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/11-Adverbies.html"><strong aria-hidden="true">20.</strong> Adverbies</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/12-Prepositiones.html"><strong aria-hidden="true">21.</strong> Prepositiones</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/13-Conjunctiones.html"><strong aria-hidden="true">22.</strong> Conjunctiones</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/14-Interjectiones.html"><strong aria-hidden="true">23.</strong> Interjectiones</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/15-Sintax.html"><strong aria-hidden="true">24.</strong> Sintax</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/16-Interpunction.html"><strong aria-hidden="true">25.</strong> Interpunction</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/17-Parolformation.html"><strong aria-hidden="true">26.</strong> Parolformation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/18-Frases-sistematic.html"><strong aria-hidden="true">27.</strong> Frases sistematic</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/19-vermen-international.html"><strong aria-hidden="true">28.</strong> Li lingue vermen international</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Grammatica Centennial</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <div id="langPicker"></div>
+                        
+                        <a href="https://github.com/occidental-lang/grammatica-centennial" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#verb" id="verb">VERB</a></h1>
+<h2><a class="header" href="#-65" id="-65">§ 65</a></h2>
+<p>In Interlingue existe <strong>un sol</strong> e <strong>unitari conjugation</strong> per adjuntion de cert consonantes al tema presentic.</p>
+<h2><a class="header" href="#-66" id="-66">§ 66</a></h2>
+<p>Li <strong>tema presentic</strong> es format per adjunter un del tri vocales</p>
+<pre><code>a
+i
+e
+</code></pre>
+<p>al tema verbal (radica plus prefixes e sufixes). Ti vocal es caracteristic por chascun verb e resta ínvariabil in omni formes del conjugation.</p>
+<table><thead><tr><th>Tema verbal</th><th>Tema presentic</th></tr></thead><tbody>
+<tr><td>fabric</td><td>fabrica</td></tr>
+<tr><td>exped</td><td>expedi</td></tr>
+<tr><td>construct</td><td>constructe</td></tr>
+</tbody></table>
+<p>Li concernent vocal caracteristic apari in omni formes del conjugation; on posse dunc basar li tot conjugation sur li tema presentic, e far li distinctiones solmen per li final consonantes, identic por li tri gruppes de verbes.</p>
+<h2><a class="header" href="#-67" id="-67">§ 67</a></h2>
+<p>Li unesim, duesim e triesim person, singulare e plurale, es distinctet solmen per li pronómin; li verb self resta ínmutat.</p>
+<h2><a class="header" href="#-68" id="-68">§ 68</a></h2>
+<p>Li <strong>infinitive</strong> es format per adjunter -r al tema presentic:</p>
+<pre><code>fabricar
+expedir
+constructer
+</code></pre>
+<h2><a class="header" href="#-69" id="-69">§ 69</a></h2>
+<p>Li <strong>presente</strong> es egal al tema presentic:</p>
+<pre><code>yo fabrica
+tu expedi
+il constructe
+</code></pre>
+<p>Li verb <strong>esser</strong> have un special abreviat form del presente: <strong>es</strong>, vice esse, pro su grand frequentitá.</p>
+<h2><a class="header" href="#-70" id="-70">§ 70</a></h2>
+<p><strong>Li participie passat</strong> (anc <strong>participie passiv</strong>) es format per adjunter <strong>-t</strong> al tema presentic:</p>
+<pre><code>fabricat
+expedit
+constructet
+</code></pre>
+<p>Li participie passat es usat anc quam <strong>passate simplic</strong>:</p>
+<pre><code>noi fabricat
+vu expedit
+ili constructet
+</code></pre>
+<h2><a class="header" href="#-71" id="-71">§ 71</a></h2>
+<p>Omni <strong>composit témpores passat</strong> es format per li verb auxiliari <strong>har</strong>. lli indica actiones terminat.</p>
+<p>Li <strong>passate composit</strong> es:</p>
+<pre><code>yo ha fabricat     
+tu ha expedit     
+il ha constructet
+</code></pre>
+<p>Li <strong>passate anteriori</strong> es:</p>
+<pre><code>noi hat fabricat     
+vu hat expedit     
+ili hat constructet
+</code></pre>
+<h2><a class="header" href="#-72" id="-72">§ 72</a></h2>
+<p>Li <strong>future simplic</strong> es format per li auxiliare <strong>va</strong>:</p>
+<pre><code>il va fabricar     
+ella va expedir     
+on va constructer
+</code></pre>
+<p>Li <strong>future anteriori</strong> es:</p>
+<pre><code>yo va har fabricat     
+tu va har expedit     
+il va har constructet
+</code></pre>
+<h2><a class="header" href="#-73" id="-73">§ 73</a></h2>
+<p>Li <strong>conditionale simplic</strong> es format per li auxiliare <strong>vell</strong>:</p>
+<pre><code>noi vell laborar     
+vu vell expedir     
+ili vell constructer
+</code></pre>
+<p>Li <strong>conditionale passat</strong> es:</p>
+<pre><code>il vell har fabricat     
+il vell har expedit     
+ili vell har constructet
+</code></pre>
+<h2><a class="header" href="#-74" id="-74">§ 74</a></h2>
+<p>Li <strong>participie presentic</strong> (anc <strong>participie activ</strong>) es format per adjunter -nt al tema presentic:</p>
+<pre><code>fabricant
+expedient
+constructent
+</code></pre>
+<p>Li verbes con -i prende -ent vice -nt por retrovar li derivates international, p. ex. convenientie, provenientie.</p>
+<p>Li <strong>adverbial form</strong> es usat quam <strong>gerundie</strong> (= durant que o per to que) per adjunter -e:</p>
+<pre><code>fabricante
+expediente
+constructente
+</code></pre>
+<p>Existe anc <strong>formes progressiv</strong>:</p>
+<pre><code>il es fabricant
+il es expedient
+il es constructent
+</code></pre>
+<h2><a class="header" href="#-75" id="-75">§ 75</a></h2>
+<p>Li <strong>imperative</strong> es egal al presente sin pronómin:</p>
+<pre><code>fabrica!
+expedi!
+constructe!
+</code></pre>
+<p>Del verb <strong>esser</strong> on prende li complet form: <strong>esse</strong>.</p>
+<p>Existe un <strong>form de politesse per ples</strong> (de pleser) con infinitive:</p>
+<pre><code>ples fabricar
+ples expedir
+ples constructer
+</code></pre>
+<h2><a class="header" href="#-76" id="-76">§ 76</a></h2>
+<p>Li <strong>optative</strong> es format per <strong>mey</strong> con infinitive:</p>
+<pre><code>il mey fabricar
+il mey expedir
+il mey constructer
+</code></pre>
+<p>Li <strong>hortative</strong> per <strong>lass</strong>:</p>
+<pre><code>lass nos fabricar
+lass nos expedir
+lass nos constructer
+</code></pre>
+<h2><a class="header" href="#-77" id="-77">§ 77</a></h2>
+<p>Li <strong>formes passiv</strong> es format per li verb auxiliari <strong>esser</strong>:</p>
+<pre><code>it es perlaborat
+ili esset perlaborat
+it ha esset perlaborat
+
+ili hat esset expedit
+it va esser expedit
+ili va har esset expedit
+
+it vell esser constructet
+ili vell har esset constructet
+it mey esser constructet
+</code></pre>
+<p>Ti maniere formar li passive es comun al maxim mult lingues national. Ma quelcvez it es necessi distincter, ca un action dura ancor o es ja finit. In ti casus on usa altri verbes, p. ex.:</p>
+<pre><code>Li dom ea constructet.     Li dom sta constructet.
+Li libre eat printat.     Li libre stat printat.
+</code></pre>
+<p>In mult casus li passive posse esser expresset per substantives o per li form reflexiv:</p>
+<pre><code>Li dom es in construction.
+Li libre esset in printation.
+Li jurnal printa se rapid.
+Li cose explica se simplicmen.
+</code></pre>
+<h2><a class="header" href="#-78" id="-78">§ 78</a></h2>
+<p><strong>Vice li subjuntive</strong> on usa in general li indicative. Solmen in rar casus exceptional (p. ex. in juristic documentes) on posse usar un form subjuntivic per adjunter <strong>-ye</strong> al presente del verb o del verb auxiliari:</p>
+<p><em>Il di que il la amaye. Il dit que il la haye amat.</em></p>
+<h1><a class="header" href="#verbal-derivation" id="verbal-derivation">Verbal derivation</a></h1>
+<h2><a class="header" href="#-79" id="-79">§ 79</a></h2>
+<p>In omni lingues millenes de substantives e adjectives es format ex li radica verbal per adjunter finales. Ti paroles sembla esser format tam ínregularimen, que li maxim conosset anteriori lingues international ha renunciat incorporar les in su sistema de derivation e ha viceat les per artificial constructiones.</p>
+<p>Al creator de Interlingue, <strong>Prof. Edgar de Wahl</strong>, reveni li merite, har decovrit quelc simplic regules por formar ti paroles internationalmen conosset per adjunter international finales a internàtional radicas.</p>
+<h2><a class="header" href="#-80" id="-80">§ 80</a></h2>
+<p>Li sufixes: <strong>ion, or, ori, iv, ura</strong> ne es adjuntet al tema verbal o al tema presentic, ma al <strong>tema perfectic</strong>.</p>
+<p>Ti unesim gruppe de finales es adjuntet a verbes expressent un action o transformation, al talnominat <strong>verbes dinamic</strong>.</p>
+<p>Li tema perfectic es trovat per li <strong>Regul de Wahl</strong>, li clave al unic lingue vermen international e in sam témpor regulari:</p>
+<p>On supresse li <strong>r</strong> resp. <strong>er</strong> del infinitive. Si li rest fini per vocal, on adjunte <strong>t</strong>, si it fini per <strong>d</strong> o <strong>r</strong>, on vicea ti consonant per s, in omni altri casus li rest self es li tema perfectic.</p>
+<table><thead><tr><th>crear</th><th>expedir</th><th>distribuer</th><th>exploder</th><th>adherer</th><th>constructer</th></tr></thead><tbody>
+<tr><td>crea</td><td>expedi</td><td>distribu</td><td>explod</td><td>adher</td><td>construct</td></tr>
+<tr><td>creat</td><td>expedit</td><td>distribut</td><td>explos</td><td>adhes</td><td>construct</td></tr>
+</tbody></table>
+<p>On posse anc dir, que li sufixes: <strong>ion, or, ori, iv</strong> e <strong>ura</strong> es adjuntet che li verbes con ar e ir al participie passat, ye li verbes con er al radica, intercalante <strong>t</strong> pos vocal final e mutante un final <strong>d</strong> o <strong>r</strong> a <strong>s</strong>.</p>
+<table><thead><tr><th>crear</th><th>expedir</th><th>constructer</th></tr></thead><tbody>
+<tr><td>creat</td><td>expedit</td><td>construct</td></tr>
+<tr><td>creation</td><td>expedition</td><td>construction</td></tr>
+<tr><td>creator</td><td>expeditor</td><td>constructor</td></tr>
+<tr><td>creatori</td><td>expeditori</td><td>constructori</td></tr>
+<tr><td>cretiv</td><td>expeditiv</td><td>constructiv</td></tr>
+<tr><td>creatura</td><td>garnitura</td><td>structura</td></tr>
+</tbody></table>
+<table><thead><tr><th>distribuer</th><th>exploder</th><th>adherer</th></tr></thead><tbody>
+<tr><td>distribut</td><td>explos</td><td>adhes</td></tr>
+<tr><td>distribution</td><td>explosion</td><td>adhesion</td></tr>
+<tr><td>distributor</td><td>revisor</td><td>precursor</td></tr>
+<tr><td>distributori</td><td>revisori</td><td>cursori</td></tr>
+<tr><td>distributiv</td><td>explosiv</td><td>adhesiv</td></tr>
+<tr><td>scritura</td><td>tonsura</td><td></td></tr>
+</tbody></table>
+<p><strong>Quin verbes</strong> forma ti derivates un poc diferentmen, usante li international formes:</p>
+<pre><code>seder  -&gt; session (vice: sesion)
+ceder  -&gt; cession (vice: cesion)
+verter -&gt; version (vice: vertion)
+venir  -&gt; vention (vice: venition)
+tener  -&gt; tention (vice: tenion)
+</code></pre>
+<h2><a class="header" href="#-81" id="-81">§ 81</a></h2>
+<p>Che li tri verbes: <strong>far, dir, scrir</strong> on posse formar li derivates per li complet radicas: <strong>fact, dict, script</strong>.</p>
+<p>Che li verbes con li consonantgruppe <strong>-nct-</strong> on posse omisser li <strong>c</strong>, precipue in nederivat formes.</p>
+<p><em>Contrafaction o contrafation, factor o fator, malediction o maledition, prescription o prescrition. Distincter o distinter, distinction o distintion, conjunction, conjunter.</em></p>
+<h2><a class="header" href="#-82" id="-82">§ 82</a></h2>
+<p>Li <strong>finale -ntie</strong> es adjuntet al tema presentic de verbes expressent un statu, al talnominat <strong>verbes static</strong>.</p>
+<table><thead><tr><th>tolerar</th><th>provenir</th><th>exister</th></tr></thead><tbody>
+<tr><td>tolerantie</td><td>provenientie</td><td>existentie</td></tr>
+</tbody></table>
+<p>Quam in li participie presentic on intercala <strong>e</strong> pos <strong>i</strong> del verbes in <strong>ir</strong>. Ti finale es solmen un combination del finale del participie presentic <strong>-nt</strong> con li sufix <strong>-ie</strong>.</p>
+<h2><a class="header" href="#-83" id="-83">§ 83</a></h2>
+<p>In analog maniere adjunte se li sufix <strong>-nd</strong> al tema presentic:</p>
+<pre><code>demonstrand
+vendiend
+leend
+</code></pre>
+<h2><a class="header" href="#-84" id="-84">§ 84</a></h2>
+<p>Li sufix <strong>-ment</strong> anc es adjuntet al tema presentic:</p>
+<table><thead><tr><th>fundar</th><th>experir</th><th>mover</th></tr></thead><tbody>
+<tr><td>fundament</td><td>experiment</td><td>movement</td></tr>
+</tbody></table>
+<p>Si li radica de un verb con <strong>er</strong> fini per vocal, li <strong>e</strong> desapari:</p>
+<p><em>arguer argument compleer complement</em></p>
+<h2><a class="header" href="#-85" id="-85">§ 85</a></h2>
+<p>Du sufixes adjunte se al radica verbal in du formes diferent secun li vocal caracteristic: <strong>-abil, -ada</strong> ye <strong>a</strong> resp. <strong>-ibil, -ida</strong> ye <strong>i</strong> o <strong>e</strong>:</p>
+<table><thead><tr><th>durar</th><th>promenar</th><th>audir</th><th>vomir</th><th>posser</th><th>currer</th></tr></thead><tbody>
+<tr><td>durabil</td><td>promenada</td><td>audibil</td><td>vomida</td><td>possibil</td><td>currida</td></tr>
+</tbody></table>
+<h2><a class="header" href="#-86" id="-86">§ 86</a></h2>
+<p>Li <strong>altri sufixes</strong> es adjuntet directmen al radica verbal:</p>
+<table><thead><tr><th>criticar</th><th>lavar</th><th>furter</th><th>spiar</th></tr></thead><tbody>
+<tr><td>criticachar</td><td>lavera</td><td>furtard</td><td>spion</td></tr>
+</tbody></table>
+<table><thead><tr><th>valer</th><th>reservar</th><th>rafinar</th><th>viver</th></tr></thead><tbody>
+<tr><td>valore</td><td>reservuor</td><td>rafinage</td><td>vìvaci</td></tr>
+</tbody></table>
+<h2><a class="header" href="#-87" id="-87">§ 87</a></h2>
+<p><strong>Substantivation direct</strong>: On posse anc usar quam substantive li radica verbal con li desinenties substantivic, o li tema perfectic con o sin desinentie substantivic:</p>
+<p><em>li pense, li pensa (plu proxim al action), li vende, li crede, li response, li vise, li flut, lì resultat, li extracte, li tribut.</em></p>
+<p>Li tema perfectic sin finale es usat anc quam <strong>adjective</strong>:</p>
+<p><em>devot, apert, pervers.</em></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../grammatica-centennial/haas/09-Numerales.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../grammatica-centennial/haas/11-Adverbies.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../../grammatica-centennial/haas/09-Numerales.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../../grammatica-centennial/haas/11-Adverbies.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script src="https://occidental-lang.com/website-word-lookup/lookup.js"></script>
+        <script>
+            lookupInit('https://occidental-lang.com/website-word-lookup/dict.json');
+        </script>
+        
+
+    </body>
+</html>

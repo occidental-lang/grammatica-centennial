@@ -1,0 +1,20 @@
+[book]
+authors = ["K. Janotta", "F. Haas", "D. MacLeod"]
+language = "ie"
+multilingual = false
+src = "src"
+title = "Grammatica Centennial"
+description = "Li max complet grammatica de Occidental (Interlingue) por li centennial."
+
+[output.html]
+theme = "src/theme"
+default-theme = "rust"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/occidental-lang/grammatica-centennial"
+site-url = "/grammatica-centennial/"
+
+[output.html.fold]
+enable = false
+
+[build]
+build-dir = "docs"

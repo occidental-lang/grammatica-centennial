@@ -1,0 +1,694 @@
+<!DOCTYPE HTML>
+<html lang="ie" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Derivation - Grammatica Centennial</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Li max complet grammatica de Occidental (Interlingue) por li centennial.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="../../favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="../../favicon.png">
+        
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        
+
+        <div id="definition"></div>
+
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "ayu" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">Grammatica Centennial</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/index.html"><strong aria-hidden="true">1.</strong> Complet Grammatica de Occidental</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/0-Preface.html"><strong aria-hidden="true">2.</strong> Preface</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/1-Fonologie.html"><strong aria-hidden="true">3.</strong> Fonologie</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/2-Flexion.html"><strong aria-hidden="true">4.</strong> Flexion</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/3-Derivation.html" class="active"><strong aria-hidden="true">5.</strong> Derivation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/4-Composition.html"><strong aria-hidden="true">6.</strong> Composition</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/janotta/5-Orthographie.html"><strong aria-hidden="true">7.</strong> Orthographie</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/index.html"><strong aria-hidden="true">8.</strong> Grammatica de Interlingue</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/00-Anteparol.html"><strong aria-hidden="true">9.</strong> Anteparol</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/01-Alfabet.html"><strong aria-hidden="true">10.</strong> Alfabet</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/02-Pronunciation.html"><strong aria-hidden="true">11.</strong> Pronunciation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/03-Accentuation.html"><strong aria-hidden="true">12.</strong> Accentuation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/04-Ortografie.html"><strong aria-hidden="true">13.</strong> Ortografie</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/05-Articul.html"><strong aria-hidden="true">14.</strong> Articul</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/06-Substantive.html"><strong aria-hidden="true">15.</strong> Substantive</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/07-Adjective.html"><strong aria-hidden="true">16.</strong> Adjective</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/08-Pronómines.html"><strong aria-hidden="true">17.</strong> Pronómines</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/09-Numerales.html"><strong aria-hidden="true">18.</strong> Numerales</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/10-Verb.html"><strong aria-hidden="true">19.</strong> Verb</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/11-Adverbies.html"><strong aria-hidden="true">20.</strong> Adverbies</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/12-Prepositiones.html"><strong aria-hidden="true">21.</strong> Prepositiones</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/13-Conjunctiones.html"><strong aria-hidden="true">22.</strong> Conjunctiones</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/14-Interjectiones.html"><strong aria-hidden="true">23.</strong> Interjectiones</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/15-Sintax.html"><strong aria-hidden="true">24.</strong> Sintax</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/16-Interpunction.html"><strong aria-hidden="true">25.</strong> Interpunction</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/17-Parolformation.html"><strong aria-hidden="true">26.</strong> Parolformation</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/18-Frases-sistematic.html"><strong aria-hidden="true">27.</strong> Frases sistematic</a></li><li class="chapter-item expanded "><a href="../../grammatica-centennial/haas/19-vermen-international.html"><strong aria-hidden="true">28.</strong> Li lingue vermen international</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Grammatica Centennial</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <div id="langPicker"></div>
+                        
+                        <a href="https://github.com/occidental-lang/grammatica-centennial" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2><a class="header" href="#iii-esim-capitul-derivation" id="iii-esim-capitul-derivation">III-esim Capitul: DERIVATION</a></h2>
+<h3><a class="header" href="#a-themas-derivatori" id="a-themas-derivatori">A. Themas derivatori</a></h3>
+<h4><a class="header" href="#1-thema-primitiv" id="1-thema-primitiv">1. Thema primitiv</a></h4>
+<p>On obtene li thema primitiv de un parol per omission del desinenties; si un parol have nequel desinentie, it self es su thema primitiv con poc exceptiones indicat in plu infra.</p>
+<p>Exemples de derivation del thema primitiv: (parol:) glacie, (thema:) glaci-, (derivates:) glacial, glaciatri, glaciero, glacin, glacios; (parol e thema:) cav, (derivat:) cavitá; (parol:) trottar, (thema:) trott, (derivates:) trottero, trottuor; caler, cal-, calid, calore; capir, cap-, capaci.</p>
+<p>Con li thema primitiv denominal (it es de substantives, adjectives, pronómines e numeralies) es juntet li secuent suffixes nominal, it es teles queles forma nomines: -ach, -ac-i, -ade, -age, -al, -al’a, -an, -ant, -ard, -ari, -ari-o, -ari-um, -astr, -at, -atr-i, -at-u, -cunc, -en, -ell, -ent, -er(-a, -o), -eri-a, -eri-e, -es, -esc, -esim, -ess, -ess-a, -est, -ett, -ia, -ic, -ic-a, -ic-o, -ide, -ie, -ier, -il, -il’, -in, -in’, -ism, -issim, -ist, -it, -ite, (-li), (-men), -n, -oid, -on, -or-e, -os, -ott, -plic, -tá, -té, -uch, -un, -uor, -ut.</p>
+<p>Ultra tis es usat con li thema primitiv denominal li suffixes verbal (enumerat ci con li adjuntet desinentie -r del infinitive): -a-r, -ea-r, -esce-r, -ett-a-r, -ica-r, -ifica-r, -ija-r, -ill-a-r, -isa-r, -iza-r.</p>
+<p>Al thema primitiv deverbal (it es de verbes) es juntet li secuent suffixes nominal: -ac-i, -agi-e, -al’a, -ard, -er, -eri-a, -eri-e, -ett, -id, -il, -ist, -or-e, -uor.</p>
+<p>Al thema primitiv deverbal es juntet li secuent suffixes verbal: -ach-a-r, -ett-a-r, -ill-a-r, -ott-a-r.</p>
+<p>Quelc substantives de latin orígine finient per li suffix -tá have un thema derivativ finient per -tat, por li derivates per li suffix -iv, p. ex.: autoritá, autoritat-iv; paritá, paritat-iv; qualitá, qualitat-iv; quantitá, quantitat-iv. Li suffix -iv es juntet ordinarimen al thema perfectic, do ti themas finient per -at es ci regardat quasi quam themas perfectic (vide in infra li articul 3). Altrimen por li parolformation per altri suffixes li vocale -a del suffix -tá es ejectet: autoritá, autorit-ari; homanitá, [191] homanit-ari; necessitá, necessit-ari; pietá, piet-ist; pro-prietá, propriet-ario; sanitá, sanit-ari; vanitá, vanit-ari. Lu sam es valid por paroles finient per -tá queles es derivates in latin, ma ne teles secun li systema de Occidental: (a) thema finient per -tat: caritá, caritativ; facultá, facultativ; (b) thema finient per -t: etá, etos.</p>
+<p>Li max mult substantives de grec origine have un special thema derivativ: p. ex. li grec substantives con li thema flexional finient per -ma (dogma, plural: dogmas) have un thema derivativ finient per -mat- (dogmat-ic, -ica, -ico, -icism, etc). Tel paroles de general usu es: aroma, asthma, clima, dogma, drama, emblema, enigma, phlegma, prisma, problema, programma, schema, symptoma, systema, thema; poy li substantives plu special o plu rar: anathema, axioma, cataclysma, derma, diaphragma, erotema, ex[anth]ema, (ana-, dia-, epi-, mono-, penta-, tele-)gramma, idioma, magma, malagma, paradigma, phantasma, plasma, pneuma, pragma, rheuma, soma, spasma, sperma, stigma, struma, trauma. Precipue remarcabil es li formationes per -oma, significant tumores e úlceres: atheroma, -tosi; carcinoma, -tosi; glaucoma, -tosi; sarcoma, -tosi etc.</p>
+<p>Scientic grec paroles abstract, finient in -se, -sie, -x (-cs), -xe (-cse) e -xie (-csie) forma li thema derivatori por li adjectives etc, mutante -s in -t (-x in -ct), e sovente li nómines de actor forjettante li suffix -ic del adjective: ana- (cata-, para-)lyse, -lytic (ma: -lysar); anti- (hypo-, meta-, paren-, syn-)the-se, -thetic; apoca-lyp-se, -tic; apo- (dia-, ec-)stase, -static (anc scrit, ma falsmen: exta-se, in vice de ecstase), apostat; aske-se, -tic, -t; ataxie, atactic; cateche-se, -tic, -t; chloro-se, -tic; empha-se, -tic; ellipse, -tic, epilep-sie, -tic; gala-xie, -ctic; gene-se, -tic; here-sie, -tic; hypno-se, -tic, -tisar, -tisero, -tism; narco-se -tic, -tisar; neuro-se, -tic; phrene-sie, -tic; poe-sie, -tic, -t; prophyla-xe -ctic; sarco-se, -tic; symbio-se, -tic; syntax, syntactic. Precipue remarcabil es li formationes secuent: dia- (pro-)gno-se, -stic, -sticar; energ-ie, -etic (ma anc: -ic); phanta-sie, -stic, -st, -sma, -siar; theor-ie, -etic, (ma anc: -ic).</p>
+<h4><a class="header" href="#2-thema-presentic" id="2-thema-presentic">2. Thema presentic</a></h4>
+<p>Li thema presentic (nominat anc thema verbal) es sempre identic con li presente del indicative; do on obtene it per omisser li desinentie -r del infinitive. Existe solmen du exceptiones: li verb «esser» forma li indicativ presentic accurtat es, in contra que li thema presentic es regularimen esse-; li verb «lassar» have un particuloid form <strong>lass</strong> por significar per it li hortative (cp. capitul VI, parte F). Ad-plu existe li tri verboid particules (defectiv verbes) <strong>mey, ples, vell</strong> por formar li optative, resp. li precative e conditionale (cp. VI, F).</p>
+<p>Al thema presentic es juntet li suffixes -bil, -da, -ment, -nd, -nt, -t. Exemples: guvernar, (thema presentic:) guverna-, (derivates:) guvernament, guvernant, guvernat; payar, paya-, payada, payament, payand, payant, payat, payabil; registrar, registra, registrada, registrament, registrant, registrat; esser, ess-, essent, esset.</p>
+<p>Quelc particularitás concernent li thema on mey comparar che li suffixes -bil, -da, -ment, -nd, -nt in li parte B, articul 1 del present capitul.</p>
+<p>Li thema presentic es anc usat quam verbal substantiv, indicant un sigulari eveniment, un curt, simplic action o su causa: lucer, luce; mancar, manca; meriter, merite; mover, move; pensar, pensa; peccar, pecca; usar, usa. Li verbes finient per -ir forma ti verbal substantive presc sempre per -ie o solmen per -e e ne per -i: dormir, dormie; finir, fine; mentir, mentie, (pro)posir, (pro)pose.</p>
+<p>Si on vell har obliviat, per quel del tri vocales (suffixes formativ) -a, -e, -i, li presentic thema es finient (e pro to anc li presente, li infinitive de un verb etc), in ti casu on retrova it facilmen per derivates, queles on conosse p. ex. ex dist<strong>a</strong>ntie on retrova dist<strong>a</strong>nt, dist<strong>a</strong>, dist<strong>a</strong>r; ex differ<strong>e</strong>nt o differ<strong>e</strong>ntie o differ<strong>e</strong>ntial on retrova differ<strong>e</strong>, differ<strong>e</strong>r; ex exist<strong>e</strong>ntie on retrova exist<strong>e</strong>nt, exist<strong>e,</strong> exist<strong>e</strong>r; ex proven<strong>ie</strong>ntie on retrova proven<strong>ie</strong>nt, proven<strong>i,</strong> proven<strong>i</strong>r etc. Anc per li thema perfectic e su derivates on posse reconstructer li thema presentic, quam es demonstrat in infra in li secuent articul.</p>
+<h4><a class="header" href="#3-thema-perfectic" id="3-thema-perfectic">3. Thema perfectic</a></h4>
+<p>Li suffixes -ion, -iv, -or, -ori, (-or-ia), -ura e quelc vez anc -bil es adjuntet al thema perfectic; ti ci es trovat secun li</p>
+<p>Regul de Wahl</p>
+<p>in li maniere secuent:</p>
+<p>On omisse li final <strong>-r</strong> (del infinitives in -ar e -ir) o (li final) <strong>-er</strong> (del infinitives in -er):</p>
+<ol>
+<li>si li ultim líttere es un <strong>vocal</strong> o li consonant mollat <strong>n’,</strong> on adjunte <strong>-t;</strong> [193] 2. si li ultim líttere es <strong>-d, -r,</strong> o <strong>-g</strong> (li ultim precedet de -l- o -r-), on muta it a <strong>-s;</strong> 3. in omni altri casus li rest es li thema perfectic.</li>
+</ol>
+<p>Exemples: (a) illustra-r, illustra-t; fini-r, fini-t; tribu-er, tri-bu-t; distin’-er, distin’-t; (b) vid-er, vis; currer, curs; mulg-er, muls; merger, mers; (c) adopt-er, adopt; detect-er, detect; sculpt-er, sculpt; miss-er, miss; opin-er, opin.</p>
+<p>Ex ti themas es format li international paroles: illustrat-ion, illustrat-iv, illustrat-or; definit-ion, de-finit-iv, in-finit-iv; (con-, dis-)tribut-ion, dis-tribut-iv, distribut-or; distin’t-ion, distin’t-iv; vis-ion, divis-ion, provis-ion, divis-or, provis-ori; ex-curs-ion, curs-iv, curs-ori; muls-ion, e-muls-ion, (e-, im-, sub-) mers-ion; adopt-ion, adopt-iv; detect-iv, detect-or; sculpt-or, sculpt-ura; miss-ion, miss-iv; opin-ion.</p>
+<p>Ulterior exemples regulari:</p>
+<p>(a) lava-r, lava-t, lavat-or, -oria, -ura; purga-r, purga-t, purgat-ion, -iv, -oria; expedi-r, expedi-t, expedit-ion, -iv, -or; (at-, con-, dis-, ex-, sub-)tra-er, -tra-t, -trat-ion, -iv, -or, -ori; mo-er, mo-t, motion, motiv, motor, motori; secre-er, secre-t, secret-ion; devo-er, devo-t, devot-ion; su-er, sut, sutor, sutura.</p>
+<p>(b) <strong>-d … s:</strong> clud-er, clus, conclusion, ex-clusion, ex-clus-iv, in-clus-iv; led-er, les, lesion;</p>
+<p><strong>-r … s:</strong> (ad-, co-, in-)her-er, -hes, -hesion;</p>
+<p><strong>-rg … rs:</strong> (abs-, de-)terg-er, -ters, -tersion.</p>
+<p>(c) profess-er, profess, profess-ion, -or, -ura; (con-, de-, in-, ob-)struct-er, -struct, -struction, -structiv, -structor, -struc-tori, -structura.</p>
+<p>Inregulari thema perfectic es propri al verbes secuent: ceder, cess; sider, sess; verter, vers; tener, tent; venir vent; sentir, sens. Exemples: cession, (suc-)cessor; session, (pos-) sessor, (pos-)sessiv; (de-, ob-, re-)tention; (inter-, sub-)ven-tion; sensori, sensibil.</p>
+<p>Li thema perfectic sol es anc usat quam verbal substantiv, indicant li resultat de un action; exemples: legar, legat; resultar, resultat; tribuer, tribut; fluer, flut; voluer, volut; extraer, extra(c)t; scrir, scrit; applauder, applaus(e); miscomprender, miscomprens(e); responder, respons(e); currer, curs; producter, product; etc.</p>
+<p>In mani casus li thema perfectic sol es anc usat quam absolut, ne resultativ verbal adjective con signification ne passiv, [194] ma sovente reflexiv: polir, polit; distin’er, distin’t; devoer, devot; aperter, apert; confuser, confus; cluder, clus; compleer, complet; absoluer, absolut; inverter, invers; resoluer, resolut; secreer, secret; suspecter, suspect, etc.</p>
+<p>Ti themas perfectic usat quam nómines posse formar derivates quam altri nómines, do ne solmen con li suffixes: -ion, -iv, -or, -ori (-or-ia) e -ura, ma anc con altri suffixes: absolut, absolutism, absolutist; invers, inversitá; polit, politesse; scrit, scrituore; secret, secretario; tribut, tributar, tributari.</p>
+<p>Li thema perfectic applica-se solmen in li derivation; <strong>li conjugation es sempre regulari,</strong> quam es monstrat in li IV-m capitul.</p>
+<p>Existe quelc antiquat latin themas usat quam thema perfectic, i. e. con li sam suffixes, sin haver in Occidental un thema presentic; p. ex.: nat- (= nascet, ma ne usat autonom, etsí existe li parol scientic «innat»), nativ, nation, natura; perfect (= perfat), perfection; caut (— circumspectios, prudent), cau-tion; fact- = fat de far (li substantive «fact» have un poc altri signification), factor, factura. A ti themas perfectic appartene li themas alongat del paroles con li suffix -tá (p. ex. autoritá, autoritat-iv; compara li precendent articul l pri li thema presentic).</p>
+<p>Li derivates del thema perfectic es trovabil in presc omni lingues europan, ne solmen in li romanic, ma anc in li lingues germanic e slav. Sammen quam per li derivates del thema presentic (vide li ultim alinea del precedent articul), anc per li derivates del thema perfectic li thema presentic es reconstructibil, si on vell har obliviat li vocal formativ del thema presentic. Talmen on posse trovar per convers<strong>a</strong>tion: convers<strong>a</strong>r, per decor<strong>a</strong>tion: decor<strong>a</strong>r, per add<strong>i</strong>tion: add<strong>i</strong>r, per pet<strong>i</strong>tion: pet<strong>i</strong>r; per caric<strong>a</strong>tura: caric<strong>a</strong>r, per garn<strong>i</strong>tura: garn<strong>i</strong>r, etc. Si li derivate international ne contene un tal vocal, p. ex.: adoption, adoptiv; fraction, fractura; conductiv, conductor; activ, action, actor etc, on intercala inter li thema primitiv e li finale -r del Infinitiv un -e-: adopt<strong>e</strong>r, fract<strong>e</strong>r, conduct<strong>e</strong>r, act<strong>e</strong>r. Comprensibilmen es apartmen a memorar ti casus u li thema primitiv es mutat por obtener li thema perfectic, p. ex.: adhe<strong>s</strong>ion, adhe<strong>s</strong>iv de adhe<strong>r</strong>er (ne adhe<strong>s</strong>er), colli<strong>s</strong>ion de colli<strong>d</strong>er (ne colli<strong>s</strong>er), cur<strong>s</strong>iv de cur<strong>r</strong>er (ne cur<strong>s</strong>er) etc secun li punctu b del regul de Wahl. To demonstra que che li derivates del thema perfectic del verbes in -er ne existe un absolut renversibilitá. Solmen ti derivates del thema presentic indica li factic vocal [195] formativ del verbal formes. Pro to p. ex. del adjective «cursiv» on ne posse deducter un infinitive «cur<strong>s</strong>er» o «cur<strong>g</strong>er»; solmen ex li international paroles cur<strong>r</strong>ent, (con)cur<strong>r</strong>entie on posse inferer li just form cur<strong>r</strong>er.</p>
+<p>(Continuation secue)</p>
+<h2><a class="header" href="#remarcas-general-al-complet-grammatica" id="remarcas-general-al-complet-grammatica">Remarcas general al Complet Grammatica</a></h2>
+<p>Noi ha recivet divers communicationes pri li capitules till nu apparit del Complet Grammatica (CoGra).</p>
+<p>In unesim on ha criticat li systema del phonetic transcrition. Nu, noi vell har preferet usar li phonetic systema fundat de Passy e propagat del Association phonetic international. Ma to trovat typographic obstacules, pro que nor printeria ne possede quelc signes de ti systema, e pro que lor fabrication vell esser tro custosi. Li usat transcrition es un compromiss inter divers directives, inter queles esset li max guidant li desire conservar max possibilmen li pronunciation del lítteres in Occidental. Pro to noi devet prender p. ex. [y] por li consonantic i, in contra que in li scientic transcritiones on usa [j] o un elevat i. Lu sam es valid pri li s sonor, expresset in li CoGra per [s], scienticmen per [z], e pri li s surd [ss], scienticmen [s].</p>
+<p>In plu on ha criticat li grand contenete de detal’es del CoGra, un objetion quel noi ha previdet ja in li preface sur li págine 149 e 150; yo repeti que mi Complet Grammatica es un etymologic grammatica del vivent lingue international e ne un «fundament de Occidental». Quande noi va haver un complet Radicarium con presc omni derivates apu li radicas, con indicationes de particularitás in pronunciation e flexion e anc con un sufficent númere de exemples por li application del pronómines e particules, tande on va posser restricter li contenete del grammatica forsan a un ters o mem minu mult. Ma to va esser possibil solmen si li unesim edition del Radicarium va esser exhaustet.</p>
+<p>Du letores ha criticat anc li strict application del historic orthographie; nu solmen ti ci es till nu clar preciset. Ma por contentar li adherentes del «simplificat» orthographie, noi va effortiar dar in un separat parte del V-m capitul un clar systema de un general simplification del orthographie.</p>
+<p>Un liste de quelc rectificationes e amendamentes al partes ja apparit del CoGra va esser insertet in un del secuent numerós de Cosmoglotta.</p>
+<p>Li redaction de Cosmoglotta va continuar publicar li present Complet Grammatica (in amplore de circa 120 págines) anc in li secuent annu e vole finir it ante decembre 1930.</p>
+<p>Al preface del CoGra yo deve junter que un del collaboratores de mi ovre esset anc senior magistre A. Z. Ramstedt, advere ínconscient; nam yo ne posset attin’er su activ collaboration, ma yo profitat mult ex su «Okzidental-Kursus in 10 Lektionen», quel va apparir bentost. In plu yo ha scrit: «Li collaboration de ti ci seniores (i. e. Deminger, Pigal, de Wahl) esset pri quelc articules tam grand, que yo esset quasi solmen li organisator del collaboration». Ma mem to ne es plenmem just; li organisator esset li Central Officie e precipue su director senior Pigal. Yo esset solmen li «catalysator».</p>
+<p>K. Janotta.</p>
+<h3><a class="header" href="#b-suffixes-productiv" id="b-suffixes-productiv">B. Suffixes productiv</a></h3>
+<h4><a class="header" href="#1-suffixes-nominat-productiv" id="1-suffixes-nominat-productiv">1. Suffixes nominat productiv</a></h4>
+<dl>
+<dt>-ach</dt>
+<dd>
+<p>significa un depreciation, un pejoration, un grossieritá: cavallach, librach, linguach, musicach, paperach, populach, tempach. — Vide li verbal application che -ar (g) sub 2 in infra.</p>
+</dd>
+<dt>-ac-i</dt>
+<dd>
+<p>juntet in general al themas primitiv de verbes, significa «inclinat a …»: babil’ar, babil’aci; cap-ir, -aci; furt-er, -aci; mord-er, -aci; parl-ar, -aci; rev-ar, -aci; roub-ar, -aci; somni-ar, -aci; ten-er, -aci; trinc-ar, -aci; vigil-ar,-aci; viv-er, -aci; vor-ar, -aci. Sin thema primitiv (orphan derivates): locuaci, sagaci. De un nominal radica: ver, veraci.</p>
+</dd>
+<dt>-ad-e</dt>
+<dd>
+<p>significa un multité, collectivité, serie, contenida, quantité prendet quam unité: boccade, borsade, brassade, caldronade, carrettade, colonnade, pottade, pun’ade, tassade. It significa anc alquo (un collectivité) pervivet: ieremiade, olympiade, robinsonade, Iliade.</p>
+</dd>
+<dt>-ag-e</dt>
+<dd>
+<p>significa (a) collectives con sense de órdine: boscage, cordage, dentage, foliage, plumage, tonnage; (b) anc un cose fat de …, consistent in …: farinage, lactage, lanage, linage, sucrage. — Compara li remarca al secuent suffix.</p>
+</dd>
+<dt>-agi-e</dt>
+<dd>
+<p>(adjuntet al thema primitiv del verbes) indica un activitá, precipue industrial o professional, sovente metaphoricmen li resultate concret del action, li medie por provocar ti activitá, li loc o li témpore de it, li pecunie (custas, taxas) quel on deve payar por it, p. ex.: abordagie, ancragie, arbitragie, blamagie, equipagie, imballagie, luagie, ovragie, passagie, pilgrimagie, plantagie, raffinagie, transportagie, viagie.</p>
+<p>Remarca: Li du suffixes -age e -agie veni de L -aticum, medi-L -agium con li correspondentes FAD -age, I -aggio, S -aje. Pro to on ha proposit unir les al form -age, pro que un strict differentiation vell evocar permanent hesitas e erras. Ma to es ínjust si on regarda e obedi li tre clar regul que -agie es usat con verbal themas, in contra -age con nominal themas. [210] P. ex. quo voll significar «ancrage», si on uni li du suffixes? Esque to es un collection de ancres de un nave (derivat de «ancre»)? O esque to es li action de «ancrar» e per extension li fact self, li loc, li payament por li action e loc? Secun li regul superior in li ultim casu on usa li parol «ancragie». In ti occasion noi remarca in general, que li lingues natural have mult imprecisitás in li derivation, juntente sub li sam suffix different idés. Ma quelcvez illi anc self divide un primarimen unitari suffix in du divers, p. ex. ex L -arius deveni in li modern lingues unimen I S Pg -ario, Pr -ari, F -aire, A -ary, D -är, Occ -ario, e altrimen I -iero, S -ero, Pg -eiro, Pr F D -ier, A -er, Occ -ero. It es do absolut natural e logic si un cert regularisation have loc in un lingue artificial sam quam li hom ha regulat mult fluvios. Li form self de -agie es justificat per I -aggio; it es quasi in populari etymologie un verbal substantive per li suffix -ie (cp. in infra) del verb «ager».</p>
+</dd>
+<dt>-al</dt>
+<dd>
+<p>expresse un general adjectivic relation, p. ex.: artificial, brutal, central, dental, differential, cordial, criminal, exceptional, general, guttural, labial, leyal, mortal, musical, national, normal, original, oval, radical, social, total, trivial (de trivia, do public, commun etc). Ples vider anc in infra sub -ic. Si li parol es usat quam substantive, it recive avantageosimen li desinentie -e (cp. II. C., 2, a), p. ex. centrale, differentiale, generale, originale, ovale, plurale etc.</p>
+</dd>
+<dt>-al’a</dt>
+<dd>
+<p>significa collectives con sense de desórdine, alquo conjettat in un cumul, pro to in maniere depreciativ un pel-mel: antiqual’a, boscal’a, canal’a, ferral’a, garsonal’a, intral’a, limal’a, monacal’a, monetal’a, mortal’a, mural’a, plumal’a, prestral’a, ramal’a, refusal’a, rimal’a, vitral’a. — Nul parte del grammatica de Occidental trovat tam mult oppposition quam li mollat sones l’ e n’ (cp. V-m cap., parte A); ci on vell posser evitar li l’, si on vell usar in vice de -al’a forsan li form -<strong>a</strong>il(a) (con li accentu sur -<strong>a</strong> secun li regules phonologic), do: antiquail, canail, ferrail, intrail etc. Ad plu on mey egardar li differentie inter li formes per -al’a (-ail) e li formes per -al-ie (cp. in supra -al e in infra -ie), queles es verbal abstractes quam: batt-al-ie (ne battal’e) de batter, represalie, spo(n)salie etc.</p>
+</dd>
+<dt>-an</dt>
+<dd>
+<p>significa «apartenent a …, adherent a …»: american, homan, insulan, mahometan, lutheran, paneuropan.</p>
+</dd>
+<dt>-ant(i)</dt>
+<dd>
+<p>forma li decenas del númeres cardinal: du = 2, duant = 20; nin = 9, ninant = 90. [211]</p>
+</dd>
+<dt>-ard(e)</dt>
+<dd>
+<p>caracterisa (a) persones, ma anc (b) animales, (c) plantes e (d) coses con malin signification: (a) babil’ard, criard, dynamitard, falsard, fuiard, furtard, grun’ard, leccard, mentiard, richard, somniard, (b) moscard, (c) spinard, (d) bombard, petard.</p>
+</dd>
+<dt>-ar(i)</dt>
+<dd>
+<p>significa «conform a …, respondent a …, convenient a …, servient a …»; angulari, annuari, articulari, atomari, auxiliari, binari, circulari, commentari, complementari, consulari, corpusculari, crepusculari, diari, doctrinari, elementari, epistulari, evolutionari, exemplari, familiari, formulari, fractionari, fragmentari, honorari, imaginari, insulari, lineari, litterari, lunari, matriculari, militari, millannuari, moleculari, monetari, oculari, ordinari, parlamentari, particulari, perpendiculari, planetari, polari, populari, primari, reactionari, regulamentari, regulari, revolutionari, scalari, scolari, seculari, secundari, singulari, solari, stationari, stellari, subsidiari, tabellari, temporari, tertiari, testamentari, tributari, tumultuari, visionari, zonari. — Por formar substantives on muta -i a -e: circulare, commentare, exemplare, formulare, honorare, oculare, singulare; cp. anc II, C, 2. — Ad-plu on mey vider li derivates in -ari in infra che -tá e -té.</p>
+<p>Remarca ad -ari: In mult casus anc derivates per -al vell esser possibil secun li sense in vice de teles per -ari; ma on mey remarcar que secun li general ley de dissimilation on deve usar -ari pos substantivic themas finient in -l: angul, angulari (ne: angulal); exemple, exemplari (ne: exemplal) etc.</p>
+</dd>
+<dt>-ari-o</dt>
+<dd>
+<p>significa un person caracterisat per alquo external, do indica sovente un sense passiv, p. ex. per su function (A -aire, -arian, -ary, D -är, -ar, F -aire): actionario, adversario, antiquario, apothecario, beneficiario, bibliothecario, commissario, commissionario, destinatario, emissario, functionario, legatario, legionario, locatario, mandatario, millionario, missionario, officiario, notario, pensionario, referendario, revolutionario, secretario, signatario. — Li derivates per -ario de paroles finient in -tá on mey vider in infra che ti suffix.</p>
+</dd>
+<dt>-ari-um</dt>
+<dd>
+<p>significa un scientific, technic o artistic collection: abecedarium, aquarium, canzonarium, copiarium, dictionarium, glossarium, herbarium, horarium, instrumentarium, inventarium, librarium, mortarium, necessarium, ossarium, ovarium, planetarium, questionarium, radicarium, rimarium, rosarium, terrarium, viarium, vivarium, vocabularium. [212]</p>
+</dd>
+<dt>-astr(e, -a, -o)</dt>
+<dd>
+<p>significa (a) persones de valore inferior, (b) plantes savagi; p. ex.: (a) matrastra, medicastro, musicastro, patrastro, poetastro, politicastro; (b) minthastre, pinastre, pomastre (= pom silvestri), salicastre, vinastre. — On mey egardar, que -astr ne indica ni li bel-parentitá ni li step-parentitá (cp. bel- e step- in IV, D), ma li malinitá, do «matrastra» = malin matre, malin belmatre, malin stepmatre etc.</p>
+</dd>
+<dt>-at</dt>
+<dd>
+<p>(con substantivic themas) significa «providet per …»: armat, barbat, ferrat, foliat, ossat, talentat; it es quasi participies del verbes «armar, barbar ...» secun li regul (a) pri li suffix -a-r in li secuent articul (2. Suffixes verbal), do significant «munir de armes, barb …».</p>
+</dd>
+<dt>-atr(i)</dt>
+<dd>
+<p>significa «simil»; alatri, olivatri, opalatri, piscatri, spongiatri, verdatri.</p>
+</dd>
+<dt>-at(u)</dt>
+<dd>
+<p>significa institutiones e positiones social o leyal, anc dignitás, officies: califatu, celibatu, concubinatu, consulatu, directoratu, episcopatu, papatu, patriarchatu, proletariatu, secretariatu, triumviratu, viduatu. In derivates li finale -u des-appari: celibatario; it posse anc esser omisset in casus sin dubitas: califat, celibat etc. It mey esser egardat que li suffix -atu es usat solmen con nómines designant persones (substantives e adjectives personal).</p>
+</dd>
+<dt>-bil</dt>
+<dd>
+<p>pri ti ci suffix de Wahl ha stipulat li secuent regules ci reproductet: -bil expresse un possibilitá, un passiv che verbes transitiv (quo posse esser fat), e un neutri che verbes intransitiv e neutri (quo posse evenir). It es juntet al thema verbal (presentic) pos elimination del finale verbal -r resp. -er. Ti ultim verbes junte li suffix -bil pos li general vocal juntiv -i-(compara li suffix -da). Exemples de transitiv verbes (a): ama-r — ama-bil, respecta-r — respecta-bil, compara-r — compara-bil; compati-r — compati-bil, perdi-r — perdi-bil, audi-r — audi-bil; cre-er — cred-i-bil, le-er — le-i-bil, per-miss-er — permiss-i-bil, reduct-er — reduct-i-bil, flex-er — flex-i-bil, tra-er — tra-i-bil, extin’-er — extin’-i-bil; (b) (verbes intransitiv) dura-r — dura-bil, sta-r — sta-bil; falli-r — falli-bil, putri-r — putri-bil; noc-er — noc-i-bil, horr-er — horr-i-bil.</p>
+<p>In quelc verbes transitiv li derivates in -bil tamen have activ sense secun international custom e usu: terr-i-bil de terr-er, responsa-r, — responsa-bil. Ti verbes queles in li perfectic thema muta li ultim consonant (d, r, g, t) in s (x) junte [213] li, suffix -bil a ti perfectic thema, vice li verbal (presentic), p. ex.: vid-er — vis-i-bil, merg-er — im-mers-i-bil, ced-er — cess-i-bil, convert-er — convers-i-bil, sent-ir — sens-i-bil. Altri exemples: de-fend-er — defens-i-bil, ap-plaud-er — plaus-i-bil, com-prend-er — comprens-i-bil, ex-tend-er — ex-tens-i-bil, sus-pend-er — sus-pens-i-bil, ex-plod-er — ex-plos-i-bil.</p>
+<p>Del verbes mo(v)er, voluer e soluer ultra li regulari formes mov-i-bil, volu-i-bil e solu-i-bil existe ancor scientic latin formes sin li juntiv vocal -i-, mobil, volu-bil, solu-bil, con un poc altri sense: mo-bil = quel self posse mover-se, mov-i-bil = quem on posse mover, solu-bil in chimical sense.</p>
+<p>Li sense del verbes in -er es ti que li -e- ne es inherent al thema verbal (presentic) ma solmen euphonic vocal usat in li conjugation.</p>
+</dd>
+<dt>-cunc</dt>
+<dd>
+<p>enclitic forma pronómines e adverbies relativ indefinit del definit teles; vide tis (VI, D).</p>
+</dd>
+<dt>-da</dt>
+<dd>
+<p>(juntet al thema presentic) significa un activitá in duration: cannonar, (thema presentic:) cannona, (derivate:) cannonada; cantar, cantada; cavalcar, cavalcada; durar, durada; errar, errada; murmurar, murmurada; parlar, parlada; promenar, promenada; telephonar, telephonada; ulular, ululada; volar, volada; fallir (thema presentic:) falli, (derivate:) fallida; finir, finida; fuir, fuida; perdir, perdida; vomir, vomida. Che li verbes finient in -er on ne usa li formativ euphonic finale -e, ma li ligativ vocale -i: currer, currida; mover, movida. On mey ne usar ti suffix in li casu de un curt eveniment, ma on mey preferer ci li thema presentic secun III, A, 2; do por exemple: li recive, ma ne recivida, ni recivion, ni reciventie.</p>
+</dd>
+<dt>-ell(-e, -a, -o)</dt>
+<dd>
+<p>derivat de nómines de animales, significa yun animales: leonell, leonella, leonello; svinell.</p>
+</dd>
+<dt>-en(a)</dt>
+<dd>
+<p>forma numeralies collectiv, sovente usat in sense approximativ: decen(a), quaranten(a), centen(a), millen(a). In vice de dudecen o deciduen es usat li parol international «dozen», quasi un abbreviatura de dudecen.</p>
+</dd>
+<dt>-ent</dt>
+<dd>
+<p>vide <strong>-nt.</strong></p>
+</dd>
+<dt>-er-</dt>
+<dd>
+<p>(<strong>-era</strong> por feminas, <strong>-ero</strong> por mascules e anc por li (genericmen) commun signification) indica un «person activ, professional, artisan», ma ne un person occupat temporarimen pri alquo, do = FD -eur, -ier, ED -er: barbero (de barb), chassero (chassar), forestero (forest), lavera (lavar), librero (libre), [214] magnetisero (magnetisar), molinero (moline), passagero (passage), scolero (scole), semero (seme, semar), tal’ero (tal’ar), tornero (tornar), vitrero (vitre).</p>
+</dd>
+<dt>-eria</dt>
+<dd>
+<p>(sin accentu sur i, do identic a -er + ia) loc de profession: barb, barberia; confect, confecteria; juvel, juveleria; libre, libreria; restaurar, restaureria (= restaurant, restauration); vitre, vitreria (= fabrica de vitrerie).</p>
+</dd>
+<dt>-erie</dt>
+<dd>
+<p>(sin accentu sur i, do identic a -er + ie) significa un profession, affere, methode, mestiere e su productes, p. ex.: vitrerie, potterie. — Metaphoricmen un caractere e su expression, un methode de acter, p. ex.: bigotterie, coquetterie, diabolerie, galanterie.</p>
+</dd>
+<dt>-es (-esa, eso)</dt>
+<dd>
+<p>significa «indigen, inhabitant», usat substantivic e adjectivic: angles, chines, borghes, cortes, frances, genues, japanes, siames, maltes, viennes; masculin: angleso etc; feminin: anglesa etc. On posse usar pos -es li desinenties -e por substantives e -i por adjectives por evitar un confusion con li plural, ergo: francese, francesi etc; un altri (phonetic) medie de distin’tion es pronunciar moll li final s; transcrition: [frantsês] in vice de [fràntsess].</p>
+</dd>
+<dt>-esc</dt>
+<dd>
+<p>indica alquo assertetmen simil a …, inventetmen comparat con …, amemorant a … (precipue pri persones o entes): arabesc, bluffesc, burlesc, cortesanesc, follesc, gigantesc, guerresc, humoresc(a), infantesc, modellesc, opalesc, pictoresc, romanesc; orphan derivat: grotesc. Per -er it forma verbes; vide -escer in li secuent articul.</p>
+</dd>
+<dt>-esim</dt>
+<dd>
+<p>(accentuat sur e, con s moll) forma (a) numeralies ordinal: quantesim? unesim (in vice de unesim anc: prim) = 1-m, duesim = 2-m, triesim = 3-m, quadresim = 4-m, decesim = 10-m, deciunesim = undecesim = 11-m, duantesim = 20-m, duantininesim — 29-m, centesim = 100-m, milltricent(-e)ninesim = 1309-m, (b) numeralies fractional commensant de 1/5: un quantesim (parte)? un quinesim (parte) = 1/5, tri decesim (partes) = 3/10; infinitesim, infinitesimal (mathematica).</p>
+</dd>
+<dt>-ess(e)</dt>
+<dd>
+<p>significa un pregnant qualitá, statu, ma special, con altri signification quam -ie, -itá, -ore; in ti suffix -ess li latin suffixes -itia e -ities ha confluet. Exemples: altess (metaphoric, dignitá; in contra: «altore» pri li dimension spacial, «altitá» = li qualitá de esser alt), delicatess, finess, grandess (postura; in contra: «grandore» pri li mesura, «granditá» = li qualitá de [215] esser grand), yuness (témpore, etá; in contra «yunitá» = li qualitá de esser yun); ulterior exemples: debiless, nobless, richess, politess, tristess.</p>
+</dd>
+<dt>-essa</dt>
+<dd>
+<p>significa un feminin officie, dignitá. Ti suffix have un tot altri origine quam li precedent; nam -essa veni tra basslatin de grec -issa. Exemples: abatessa (de: abate), baronessa (baron), comtessa (comte), deessa (deo), diaconessa (diacon), gigantessa (gigant), mastressa (mastro), prophetessa (prophet), princessa (prince), sultanessa (sultan). Li syllabe -tor por masculines muta se por li feminines a -tressa (sin -o-): actor, actressa; director, directressa; imperator, imperatressa; ma doctoressa de doctor e tutoressa de tutor. Ples comparar li form «nutressa» in li parte D, 1 in infra che -t(o)r-essa. Ultra li regulari formes «heroessa» (de heróe) e «reyessa» (de rey) on posse usar li international natural formes «heroina», «reyina». Per -essa posse esser format anc li nómines de feminin animales timet o estimat: leon, leonessa; pavon, pavonessa; tigre, <span class="correction" title="tiggressa">tigressa</span>. On mey comparar li VI-m capitul B, 7.</p>
+</dd>
+<dt>-est, -est-ic, -est-ri</dt>
+<dd>
+<p>vide les in C, 1 in infra.</p>
+</dd>
+<dt>-et &dagger</dt>
+<dd>
+<p>= <strong>-ett.</strong></p>
+</dd>
+<dt>-ett (-ette, -etta, -etto)</dt>
+<dd>
+<p>es un general suffix diminutiv: (a) del substantives indicant persones: filia, filietta; filio, filietto; Anna, Annetta; Paulo, Pauletto; anc signification caressiv; (b) del substantives indicant coses sovente con un signification simileant o substitutiv: carre, carrette; chambre, chambrette; cigar, cigarette; epolette, historiette, lansette, librette, lorgnette, navette (anc del textor), pincette, rosette, rulette, statuette; (c) con verbal themas primitiv it significa micri coses, usat por far li action concernet: ciser, cisette; forar, forette; incender, incendette; inflammar, inflammette; luder, ludette; ponderar, ponderette (pondere es li qualitá); provar, (e)provette; serrar, serrette; tener, tenette; tonder, tondette; (d) con adjectivic themas it significa «havent ne totalmen li qualitá»: brun, brunetti; gris, grisetti (de quel «grisetta» pro li simpli vestiment); pallid, pallidetti; (e) con verbes it have sovente un, signification frequentativ, vide -ett-a(r) in li articul secuent. Ples attenter que li nómines de animal-yunes es format per li suffix <strong>-ell;</strong> vide it in supra.</p>
+</dd>
+<dt>-ez †</dt>
+<dd>
+<p>= <strong>ess(e);</strong> vide it in supra.</p>
+</dd>
+<dt>-ia</dt>
+<dd>
+<p>juntet al nómines de persones significa «loc, land, local de lor labor»: abatia (de abat), auditoria (auditor), dominia [216] (dómino), dormitoria (dormitor de dormir), Germania (germano), Russia (russo). Ples vider anc -eria e -oria.</p>
+</dd>
+<dt>-ic</dt>
+<dd>
+<p>(ínaccentuat secun I, C, 2) indica «essent tal, havent li qualitá de …»; it junte se precipue con themas de grec origine: caloric (de calore), chronic (chrono-), electric (electro-), heroic (heróe), medicinic (medicina), phantastic (phantast), poetic (poet), sideric (sídere), symbolic (symbol). Existe mult paroles per -ic ne derivat in Occidental: arithmetic, botanic, critic, cynic, logic, mathematic, politic e altres. Por preciser o nuancear li sense adjectivic, on posse adjunter -al, p. ex. electrical, logical, systematical; advere it existe ci sovente un differentie del sense, p. ex. physic e physical.</p>
+</dd>
+<dt>-ica, -ico</dt>
+<dd>
+<p>per junter -a al adjectives per -ic on recive li nómines del scienties e artes; per -o li executores de ti scienties o artes; tre sovente li paroles per -ica e -ico ne have un thema derivativ in Occidental. Exemples: aviatica, aviatico (avie, aviar, aviator, aviatic, avion); chronica, chronico; logica, logico; mathematica, mathematico; physica, physico; symbolica, symbolico etc. Ti suffixes ne have li accentu sam quam li suffix -ic (vide I,C,2). It es in discussion usar li suffix-gruppe -ic-i-an por li persones, p. ex. logician, mathematician etc, queles vell permisser li formation de nómines masculin e feminin, p. ex.: logiciano, logiciana etc.</p>
+</dd>
+<dt>-id</dt>
+<dd>
+<p>vide it in C, 1 in infra.</p>
+</dd>
+<dt>-ida,</dt>
+<dd>
+<p>ples vider <strong>-da.</strong></p>
+</dd>
+<dt>-id-e, -id-o, -ida</dt>
+<dd>
+<p>indica «descendent» e forma talnominat «patronymicos»; (a) persones: arpadide, danaide, eumenide, heraclide, napoleonido, nereida, oceanide, priamide; (b) metaphoricmen stelles filant: leonides, perseides.</p>
+</dd>
+<dt>-ie</dt>
+<dd>
+<p>indica abstractes, (a) de adjectives: autonomie, cortesie, inaptie, inertie, jalusie, maladie, somniacie; (b) precipue de adjectives e participies finient in -nt: absentie, alliantie, confidentie, conossentie, convergentie, decadentie, elegantie, existentie, ignorantie, perseverantie, presentie, proveniende, reminiscentie, silentie, tolerantie; (c) anc de substantives (indicant persones li derivates significa sovente scienties): anatomie, aristocratie, astrologie, astronomie, barbarie, democratie, geographie, seniorie, tyrannie; (d) de verbes: furer, furie; judicar, judicie; mentir, mentie. — Li verbal substantives mentionat sub li punctu (b) differe per psychologic nuances del verbal substantives format per li suffix -ion; compara che ti ci suffix in infra, li tractate pri li verbes static e dynamic. [217]</p>
+</dd>
+<dt>-ier</dt>
+<dd>
+<p>existe in tri formes: (a) -iera indicant un loc contenent alquo, ú on extrae o cultiva alquo: carboniera, coralliera, fasaniera, glaciera, miniera, pisciera, torfiera; (b) -iere significa «vase, utensile, reservuore, contenent alquo, apertet por alquo»: butoniere, cigarettiere, cigariere (etuí), cindriere, glaciere, graniere, incriere, mortiere, sputiere, sucriere, tabaciere, teiere, visiere; (c) -iero indica objectes e precipue plantes portant alquo: candeliero, cigariero (tub), fructiero, pomiero, rosiero, teiero (= té-plante).</p>
+</dd>
+<dt>-il</dt>
+<dd>
+<p>vide it in C, 1 in infra.</p>
+</dd>
+<dt>-il’</dt>
+<dd>
+<p>es un suffix caressiv: canil’o, fratil’o.</p>
+</dd>
+<dt>-in</dt>
+<dd>
+<p>significa derivation, origine: argentin, argilin, aurin, canin, columbin, cristallin, cuprin, feminin, ferrin, florentin, infantin, marin, masculin, ranin, serpentin, terrin. Ti suffix forma anc substantives: casein (caseo), cocain (coca), moline (mol), svinine (= carne del svine), turbine (turbar), urine (ure); e li du feminines: heroina, reyina (cp in supra che li suffix -essa). Pri li adjectives «fratrin, matrin, patrin» vide in C, 1 in infra che <strong>-n.</strong></p>
+</dd>
+<dt>-in’</dt>
+<dd>
+<p>es un suffix caressiv: seniorin’a, matrin’a, carin’a, catin’a.</p>
+</dd>
+<dt>-ion</dt>
+<dd>
+<p>(juntet al thema perfectic) indica abstract verbal nómines, actiones, status, metaphoricmen anc lor concret realisation, lor loc e li persones actent: action, administration, completation, concession, construction, definition, degradation, delegation, demolition, destination, expedition, fabrication, fiction, impression, negation, petition, redaction, situation, tradition, vision.</p>
+<p>In latin li substantives per -ion es nominat «nomini actionis», i. e. nómines de action o verbal substantives. Ma tal nomines es anc format per li duplic suffix -ntie (compara in supra che -ie). Li differentie inter -ion e -ntie es ti que li derivates per -ion es format in general con li thema de verbes dynamic, e li derivates per -ntie con li themas de verbes static. Li classification del verbes secun ti psychologic vispunctu have grand importantie por li regulari derivation del natural international vocabules de latin orígine.</p>
+<p>Li verbes <strong>static</strong> monstra un statu constant e permanent, do ne attin’e un nov statu perfect, finit e pro to ne posse haver un thema perfectic, p. ex.: concordar, conosser, consister, creder, differer, distar, esser, perseverar, provenir. Li verbal substantives static es format quam dit per juntion del suffix -ie al participie presentie: concordantie, conossentie, consistentie, credentie, differentie, distantie, essentie, perseverantie, provenientie. On ne ha adoptet in Occidental formes quam «difference» o «differenz», pro que it deve esser possibil regularimen derivar de differentie li ulterior formes: differenti-al, differenti-ation etc.</p>
+<p>Li verbes <strong>dynamic</strong> indica que alquo eveni, es fat, que un mutation del statu original es executet quel posse causar un statu final, p. ex.: acter, destructer, finir, indicar, inserier, parlar, rotar, rupter, scrir, tonder. Verbal substantives dynamic es derivat quam ja dit per juntion del suffix -ion al thema perfectic: action, destruction, finition, indication, insertion, parlation, rotation, ruption, scrition, tonsion; o substantives, queles indica li statu attin’et per juntion del suffix -ura: structura, ruptura, scritura, tonsura.</p>
+<p>Per li evolution mult paroles con -ion recive im sense plu concret; in ti casu illi indica ne solmen li action, ma anc li methode, resultate, loc etc, p. ex.: construction, redaction e altres.</p>
+<p>Anc li límite inter verbes static e dynamic naturalmen ne es absolut strict, p. ex. on posse derivar de tolerar tam «tolerantie» quam «toleration», con un cert differentie de sense; li unesim monstra precipue li general statu mental e li duesim plu mult li tenentie in un concret casu.</p>
+</dd>
+<dt>-ism</dt>
+<dd>
+<p>significa «direction mental, tendentie de action»: automobilism, buddhism, capitalism, christianism, darwinism, egoism, idealism, nepotism, nihilism, socialism, symbolism, verism; anc por linguistic particularitás: germanism.</p>
+</dd>
+<dt>-issim</dt>
+<dd>
+<p>(accentuat sur li unesim i secun I, C, 2), general adjectivic suffix augmentativ, ma anc con substantives, indica «un alt gradu sin comparation» (superlativ absolut): altissim, amatissima (= fémina tre amat), bellisim (= tre bell), bonissim (= tre bon, exellent), carissim, estimatissim, generalissim (= marchall), finissim (= tre fin), grandissim (= enorm), micrissim (= minim), serenissimo.</p>
+</dd>
+<dt>-ist</dt>
+<dd>
+<p>(de substantives) significa «adherent de un doctrina (correspondent al suffix -ism), person occupat de alquo artistic, scientic, religios, philosophic, ideal, politic, militari, sportiv o technical» p. ex.: artist, automobilist, bonapartist, buddhist, capitalist, communist, darwinist, dentist, egoist, florist, idealist, internist, jurist, librist (= bibliophil), linguist, machinist, nihilist, oculist, pianist, publicist, socialist, symbolist, telegraphist, velocipedist. Por formar adjectives del derivates per -ist on [219] usa solmen li suffix -ic (quo specialmen li franceses mey attenter): automobilistic, buddhistic, communistic, socialistic; sammen quelc scienties e technicas: automobilistica, linguistica, oculistica.</p>
+</dd>
+<dt>-it</dt>
+<dd>
+<p>indica li origine, precipue (a) de natives e altri persones e (b) de mineralies, p. ex.: (a) hamit, israelit, jesuit, levit, semit; (b) ammonit, belemnit, dynamit, granit, melinit, meteorit, pyrit, sienit.</p>
+</dd>
+<dt>-itá, -itá</dt>
+<dd>
+<p>vide <strong>-tá,</strong> resp. <strong>-té.</strong></p>
+</dd>
+<dt>-ite</dt>
+<dd>
+<p>indica «inflammation maladiv»: appendicite, diphtherite, laryngite, meningite, periostite, peritonite, pulmonite, radio-dermite. In AD es usat li suffix in li form -itis, ma li romanic e slavic lingues usa li finale -it(e), de quel li derivation per -ic es totalmen regulari: appendicitic. etc.</p>
+</dd>
+<dt>-iv</dt>
+<dd>
+<p>indica «actent talmen, capabil de …» (destination, capacitá, necessitá) e es juntet al thema perfectic; de verbes finient per <strong>-ar:</strong> accusar, accusativ; augmentar, augmentativ; compensar, compensativ; dar, dativ; decorar, decorativ; derivar, derivativ; dubitar, dubitativ; explicar, explicativ; imperar, imperativ; nominar, nominativ; pensar, pensativ; purgar, purgativ; siccar, siccativ; de verbes finient per <strong>-ir:</strong> addir, additiv; definir, definitiv; dormir, dormitiv; fuir, fuitiv; (de)scrir, (de)scritiv; sentir, sensitiv; de verbes finient per <strong>-er:</strong> attenter, attentiv; attraer, attrativ; capter, captiv; constructer, constructiv; currer, cursiv; decider, decisiv; diminuer, diminutiv; expresser, expressiv; ficter, fictiv; geniter, genitiv; nocer, nociv; tacer, taciv; vider, visiv. De mani latin scientic derivates ne existe in Occidental li thema primitiv, it es tal-nominat «orphan»-derivates, p. ex. lenitiv, (de L lenire «mitigar»). Li derivates missive e prerogative have un signification passiv.</p>
+<p>Si li derivates per -iv es usat quam substantives, it es preferibil adjunter un final -e, p. ex.: li nominative, genitive, dative, accusative, vocative; li imperative, indicative; un augmentative, diminutive; li alternative, directive, dormitive, fixative, (loco)motive, palliative, purgative, siccative, stative; un detectiv(e) (ma anc detectivo, resp. detectiva). Formationes irregulari con -iv es li paroles ja internationalmen conosset e usat: festiv, maladiv, massiv, nativ, passiv, primitiv, sportiv.</p>
+</dd>
+</dl>
+<p><em>-li</em> e <em>-men</em> posse esser regardat anc quam sufixes derivativ; ma ili es tractat in li anterior capitul che li desinenties; ples vider II.C.</p>
+<p><em>-ment</em> es juntet al tema presentic e significa «special, concret action, su resultate, su medie». Exemples: (a) de verbes per <em>-ar</em>: abassament, abonnament, commensament, fundament, medicament, ornament, payament, temperament, testament, traciament, tractament; (b) de verbes per <em>-ir</em>: experiment, impediment, nutriment, sentiment, vestiment; (c) de verbes per «consonant+er»: etablissement, movement; (d) de verbes finient per «vocal + er»: arguer, argument; compleer, complement; excreer, excrement; moer, moment, do format in ti ci casus semblantmen del tema primitiv, ma proprimen eveni ci li fenomen del elision del presc ínpronunciat e ergo anc ínscrit sufix formativ -e del tema presentic: excre+e+ment = «excrement», e analogicmen: argu+e+ment = «argument» etc.</p>
+<p><em>-n, -nd</em>; vide in C.1 in infra.</p>
+<p><em>-nt</em> juntet al tema presentic, pos i- es intercalat -e; li sufix significa «activ, actent», e forma pro to anc li participie presentic activ. Exemples: (a) de verbes per <em>-ar</em>: debutant, dilettant, fabricant, penetrant, resultant, stand; (b) de verbes per <em>-er</em>: calent, current, decadent, different, dirigent, disponent, eminent, sedent, soluent; (c) de verbes per <em>-ir</em>: audient, finient, morient, scrient. Li participie presentic posse esser usat quam substantive (sin o con -e final), p. ex.: amanto, componente, constante, descendente, determinante, li dilettant (dilettanta, dilettanto), dirigent, li dormienta, exponent(e), levante, un moriente, president, proponent, quadrant, li (re)fuientes, representant, resultante, tangente, variante, etc.</p>
+<p><em>-ntie</em>= -nt+ie; vide che li sufix <em>-ie</em> e anc che <em>-ion</em> in supra.</p>
+<p><em>-oid</em> indica in sciential paroles «de simil specie o form»; ti greg sufix es nu usat con temas ne solmen de grec orígine. Exemples: alcaloid, anthropoid, celluloid, colloid, crystalloid, cycloid, ellipsoid, hyperboloid, metalloid, muscoid, negroid, paraboloid, rhomboid, spheroid, tabloid, trapezoid, trochoid, typhoid, zonoid.</p>
+<p><em>-on</em> significa un person caracterisat per un typic intern o natural qualitá; buffon, burlon, dorm(i)on, galoppon, glotton, grison, laceron, nocton, peccon, pedon, savagion, spion, sucon.</p>
+<p><em>-or</em> (juntet al tema perfectic) indica «actent» = FD -eur, LAD -or; exemples: (a) persones: administrator, antecessor, auditor, collaborator, conossor, creditor, curator, debitor, desertor, director, donator, executor, expeditor, furtor, gladiator, imperator, inspector, instructor, monitor, observator, piscator, persecutor, pictor, popularisator, raptor, redemptor, reformator, repetitor, sculptor, secutor, tutor, usurpator, venditor, victor; (b) «machines, aparates»: compressor, condensator, elevator, exhaustor, generator, indicator, inductor, metallisator, mixtor, moderator, motor, perforator, preparator, purificator, radiator, separator, sofflator, tra(c)tor, transformator, ventilator; (c) factores scientific etc: catalysator, divisor, multiplicator, vector.</p>
+<p>Un exception es rotor, quel in vice del regulari «rotator» es ínregularimen format del tema primitiv. Ma ti irregularitá veni del ínconossentie de latin che li inventor del parol «rotor»; it es forsan un analogic formation al parol antonimic «stator», quel es bisillabic. Do it ne es un exception de Occidental, ma quasi un parol «extran» acceptat junt con li cose self. Ulterior simil fals derivates del scientie es in electrica: impedantie; in colloid-chimie: dispergator, emulgator, solvatation. </p>
+<p>In latin li paroles con -or es nominat «nomina agentis», i.e. nómines del actente. Li derivates, queles significa persones, determina li génere comun (i.e. sin egard al sexu) e li sexu masculin; por li feminin on muta -tor in -tressa; vide -essa in supra.</p>
+<p><em>-or-e</em>, juntet al tema primitiv de verbes, significa un statu de psiche, movida, luce, temperatura, p.ex.: amore, ardore, calore, fervore, furore, horrore, splendore, stridore, sudore, terrore, tremore, tumore, valore, vigore. Juntet al tema de adjectives li sufix indica quantitás, valores, p. ex.: altore, grandore, largore, longore, rondore. Ples comparar che -ess in supra li diferentie inter -ess e -ore.</p>
+<p><em>-ori</em> (con li tema perfectic) significa «quel have intention de ..., es destinat ...», sin que on garanti success, quel on expecta, si on usa li sufix -iv, p. ex.: consolatori, consolativ; obligatori, obligativ; purgagori, purgativ. Exemples ulterior: agitatori, ambulatori, civilisatori, contraditori, creatori, fecundatori, fulminatori, hesitatori, illusori, imperatori, motori, organisatori, preparatori, provisori, scritori (tabul), transitori. -- Tir derivates es proprimen nómines de actent, finient per -or e usat quam adjectives; ma on posse anc formar ti adjectives per -ic e scrir: agitatoric in vice de agitatori, motoric in vice de motori etc.</p>
+<p><em>-oria</em> (= -or+ia) indica «loc destinat a ...»: ban'atoria, cavalcatoria, conservatoria, crematoria, dormitoria, laboratoria, lavatoria, manjatoria, observatoria, purgatoria, sanatoria, scritoria, sepultoria, siccatoria, trincatoria.</p>
+<p><em>-os(i)</em> (con s moll) significa «rich in ..., providet de ...»: aquos, delicios, doloros, famos, furios, glorios, grocios, jocos, joyos, leguminos, malicios, monstruos, musculos, mysterios, nervos, ocios, officios, ominos, ovros, pompos, populos, poros, precios, respectuos, sandos, spacios, spinos, succesos, tuberculos, virtuos, vocos, voluminos, derivat de: aqua, delicie, dolore, fama, etc. Pro que mult plurales de substantives fini per -os it es recomandabil usar derivates de tal substantives per li sufix -os con li adjectivic desinentie -i, p. ex.: oleo, plurale: oleos, pro to oleosi, nucleosi, numerosi etc. Remarca: In quelc paroles -os have un signification in poc diferent, p. ex. laborosi (diligent); ingenios, grandios, generos etc. </p>
+<p><em>-ott</em>, augmentativ sufix: brass, brassott; bors, borsott; cultel, cultelott (hacc-cultel); furc, furcott. -- Vide li verbal aplication che -ar (g0 in li sequent articul 2. </p>
+<p><em>pl†</em> = <em>-plic.</em></p>
+<p><em>-plic</em>, pos consonantes <em>-iplic</em> o <em>-uplic</em>, indica «numerales multiplicatori» e es atonic (ínaccentuat) secun li regules in I,C,2: quant, quantuplic; tant, tantuplic; mult, multuplic, du, duplic; tri, triplic; quadr-, quadruplic; sett, settuplic; deci, decuplic o deciplic; deci-nin, decininuplic; duant, duantuplic; cent, centuplic. Ulterior derivates: multiplicar, reduplicar, duplicat. Ti ci sufix deriva se del verb plicar (F plier, A to fold, D falten), do it vell dever esser tractat in li composition; ma pro que su rol de autocton parol es presc efaciat (vide li non-accentuation), it es tractat ci inter li sufixes. In vice de «unuplic» on di simplic, provenient de L semel+plex, it es «plicat in un vez», ma on posse comprender «sin plic, ín-complicat».</p>
+<p><em>-t</em> juntet al tema presentic forma li participie perfectic: esset, photographat, demolit, constructet; su aplication quam predicat on trova in li VI-m capitul, parte F. Li sam form es anc li preterite: vide in li sam loc. Li participie perfectet es anc usabil quam substantive (con -e final si necessi); p. ex.: li derivate, li contenete; conglomerat, postulat, resultate, quadrat; anc pri persones: amato, perdita, li privilegiates, insclavates, etc.</p>
+<p><em>-tá</em> significa «qualitá» (F -té, A -ty, D -tät), sovente con intercalation de un eufonic -i- detra consonantes: bon, bontá o bonitá, celebri, celebritá. Altri exemples: (ín)amicitá, bell(i)tá, caducitá, dignitá, homanitá, liber(i)tá, limpiditá, miserabil(i)tá, novitá, nuditá, palliditá, paritá, perfiditá, plenitá, popularitá, possibil(i)tá, qualitá, quantitá, sanitá, suveranitá, universalitá, venerabil(i)tá. -- Pos temas primitiv finient per -i, on usa -e- quam vocale eufonic por distinter it de -itá pos consonantes, p. ex.: contrarietá, ebrietá, notorietá, pietá, proprietá, rancietá, varietá de contrari(e), ebri(e), notori(e), pie, propri(e), rancie, varie; compara anc II,C,2,b.- In derivation continuat li -á desapari, in quelc casus li sufix -tá es extendet ad -tat; vide li parte A, articul 1 de ti ci capitul. Compara le sequent sufix. </p>
+<p><em>-té</em> indica un totalitá de persones o coses, pos consonantes anc -ité, pos -i -eté: homanitá, laborerité (li laboreros), majorité, parentité, quantité, societé, yunité. On ha proposit usar anc -tá in ti ci casus in vice de -té. Ma to es ni desirabil ni necessi secun li sam vispunctus queles pleda por diferentiar -agie de -age; vide in supra che -agie.</p>
+<p><em>-ti†</em> ha indicat antey (in li unesim form de Occidental) li númeres decenal derivat: duti {equals} 20, triti {equals} 30, ninti {equals} 90. Nu es usat: duant, triant, ninant; vide in supra che li sufix -ant.</p>
+<p><em>-uch</em> es un sufix diminutiv-depreciativ: borghesuch (= spicero), canuch (= micri cane miserabil).</p>
+<p><em>-un</em> indica un unité in oposition al colective: grelun, salun, sandun, scalun. Ti sufix venient del numerale «un» es tractat ci e ne che li composition, pro que it have un caractere sufixoid.</p>
+<p><em>-uor(e)</em> significa «utensil o arangeament sur quel o in quel on fa quelccos»: arrosuore, ban'uore, col'uore (anc: col'ette), flottuore, grattuore, haccuore (= hacc-plate), lavuore, lulluore, machuore, manjuore, melcuore, portuore, rabotuore (= banc por rabotar), reservuor, rinsuor, scrituore, sonuore, svimuore (= pinne), tiruore (= tir-bux, tir-chest), trottuor, vinduor.</p>
+<p><em>-upl(ic)</em> vide -plic.</p>
+<p><em>-ur(a)</em> juntet al tema perfectic indica un action concretisat e su resultate; (a) de verbes per <em>-ar</em>: caricatura, creatura, ligatura, quadratura, reparatura, signatura, statura, stuccatura, temperatura; (b) de verbes per <em>-ir</em>: garnitura, investitura, partitura, politura, scritura; (c) de verbes per <em>-er</em>: aperter, apertura; censer, censura, constructer, constructura; flexer, flexura; friser, frisura; glaser, glasura; leer, letura; professor, professura; mixter, mixtura, monter, montura; morder, morsura; rupter, ruptura; sculpter, sculptura; structer, structura; suer, sutura; tonder, tonsura. -- Ínregulari es li international derivates «procedura» de proceder (in vice de processura), remedura de remeder, e brochura de brochar (in vice de brochatura). In ultra ples comparar li paroles cultura e natura in III.A,3. Pri li coherentie psicologic del sufix -ion con li sufix -ura e su aplication al verbes dinamic ples comparar sub -ion in supra.</p>
+<p><em>-ut</em> significa «superabundant de ..., tro rich de...»: barbut, brassut, carnut, pellut, sandut.</p>
+<h4><a class="header" href="#2-sufixes-verbal-productiv" id="2-sufixes-verbal-productiv">2. Sufixes verbal productiv</a></h4>
+<p>-a-r forma derivates de diferent signification secun li tema primitiv.</p>
+<p>(a) De Substantives significant objectes, materiales, abstrates, it forma verbes, queles significa «provider per...»: anima, animar; arm, armar (quelc ulterior derivates: desarmar, desarmament, armatura etc.); coron, coronar (coronation); dot, dotar; form, formar (reformar, information, transformator); fum, fumar; hag, (in)hagar (includer per un hag); honor, honorar; linea, linear (lineament); loc, locar (= dar loc che altri person; dislocation, translocar); motiv, motivar; ocul, ocular, oxyd, oxydar; plomb, plombar; privilegie, privilegiar; punt, puntar; sal, salar; signe, signar; titul, titular; vall, vallar (circumvallation); verniss, vernissar.</p>
+<p>In li derivation del substantives per -tá ti perdi li vocale á, quam es ja demonstrat in li II-m capitul; talmen ci acte se solmen semblantmen pri un sufix verbal -ita-r. Exemples: capacitá, capacitar; debilitá, debilitar; facilitá, facilitar; felicitá, felicitar; habilitá, habilitar; necessitá, necessitar; nobilitá, nobilitar; possibilitá, possibilitar.</p>
+<p>(b) De substantives significant utensiles, instrumentes on forma per -a-r derivates queles indica «usar, tractar per...»: balaye, balayar; bross, brossar; cisel, ciselar; knut, knutar; lans, lansar; lápid, lapidar; martell, martellar; rost, rostar; scruv, scruvar; styr, styrar; tette, tettar; trap, trapar; trumpet, trumpetar; vehicul, vehicular; via, viar. Similmen: camp, campar; logí, logiar.</p>
+<p>(c) De substantives queles indica productes o secretiones organic, li derivates per -a-r significa «far nascer, secreer»: infant, infantar; lact(e), lactar; saliva, salivar; sangue, sanguar; sput(e), sputar; suppur, suppurar; urin(e), urinar.</p>
+<p>(d) Pos nómines de viventes li sufix -a-r indica «exercir li activitá de ... acter quam ...»: dómino, dominar; judico, judicar; prodigo, prodigar; serpent, serpentar.</p>
+<p>(e) Li derivates per -a-r de adjectives e participies have un </p>
+<p>signification factitiv e es usat sovente con prepositiones. De adjectives: bell, abellar; facil, affacilar {equals} facilitar sub (a); firm, affirmar, confirmar; lucid, lucidar; melior, ameliorar; plen, plenar; satur, saturar; sicc, (ex-)siccar; simil, assimilar; vacui, (e)vacuar. De participies presentic: caler, calent, calentar; crescer, (ac)crescentar; doler, dolentar; dormir, (ad)dormientar; fuir, (af)fuientar; heredar, heredantar; jacer, jacentar; mammar, mammantar; puder, pudentar; seder, sedentar; timer, timentar, viver, (re)viventar. Por expresser li factive sovente li analitic construction con «far ...r» es plu apt, plu comprensibil, plu eufonic e plu customat, p.ex.: far attenter (ne: attententar), far laborar, far scrir, far venir etc.</p>
+<p>(f) Li sufix -ar pos abstract substantives (autocton nómines de action) indica li verb conform: abandon, abandonar; beson, besonar; cur, curar; desir, desirar; fusion, fusionar; jett, jettar; joy, joyar; labor, laborar; mersí, mersiar; odie, odiar; prov, provar; question, questionar; risc, riscar; salt, saltar; salut, salutar; subvention, subventionar; viagie, viagiar; visit, visitar; voce, vocar. Just sam es li casus u li tema presentic del verbes in -a-r es usat quam verbal substantive secun III,A,2.</p>
+<p>(g) Li du nominal sufixes (tractat sub 1) -ach e -ott es anc usat verbal junt con li sufix -a-r e havent li sam signification quam in li aplication nominal. Do -ach+ar significa un depreciation, un pejoration, un grossieritá del action: criticar, criticachar; imitar, imitachar; mercar, mercachar; trincar, trincachar. Li duplic sufix -ott+ar have un signification augmentativ: besottar {equals} besar sovente; spirottar {equals} spirar vehementmen. On posse anc formar verbes per ett+ar, ma pro que li signification de ti sufix -ett es un poc mutat in li verbal aplication e pro que it alterna ci con li sufix -illar, it es tractat separat in infra.</p>
+<p>(h) Mult derivates per li sufix verbal -a-r ne es inregistrabil sub li sub li punctus a til f, p.ex. don, donar; matur, maturar; prosper(i), prosperar; etc.</p>
+<p>-acha-r; vide it in supra che a-r sub punctu g. </p>
+<p>-ea-r forma verbes indicant un statu de oscillation o de movement repetit, anc un statu manifestat per luce, temperatura etc: carr(e), carrear; flammear; flor, florear; guerr(e), guerrear; gurgul, gurgulear; noct(e), noctear; scum, scumear; taur(e), taurear (taureator, taureada); und(e), undear; verd(i), verdear; volt(e), voltear. -- Li sufix -ear es quasi li verb «ear» in un poc translatet sense, malgré que su etimologic orígine es totalmen diferent.</p>
+<p>-esce-r; vide it in C.2 in infra.</p>
+<p>-eta-r † = -ett-a-r.</p>
+<p>-etta-r e -illa-r have un signification frequentativ, ili es usat dissimilativmen; foliettar {equals} tornar li folies de un libre; oculettar = jettar ocul-colpes, pezzettar {equals} dispezzar, puntillar {equals} far mult puntas, ridettar {equals} subrider, saltillar {equals} far mult saltas; volettar {equals} volar ci e ta quam un papilion. -- Compara li sufix -ett in li precedent articul (III,B,1.)</p>
+<p>-ica-r; vide it in C,2 in infra.</p>
+<p>-ifica-r (li síllabe -ic es sempre ínaccentuat, vide I,C,2) forma in general paroles scientific significant «far...», i.e. factitives: carnificar, chylificar, chymificar, dignificar, falsificar, identificar, justificar, lapidificar, mortificar, mystificar, notificar, parificar, petrificar, ratificar, rectificar, russificar, significar, stratificar, terrificar, testificar, verificar, vivificar. Orfan derivates es: edificar (L aedes «dom»), gratificar (L gratus «agreabil»). Advere i+fica-r, ne es un sufix, ma li general juntiv vocale -i- con li factitiv por se self ne usat form ficar del verb far. Do ti verbes es proprimen composites; ma pro li frequentie e sufixoid caractere de ti verb usat quam determinat parolparte it es tractat ci quam sufix.</p>
+<p>-ija-r significa «devenir»: rubijar, verdijar.</p>
+<p>-illa-r; vide it in supra che -etta-r.</p>
+<p>-isa-r deriva de substantives e adjectives (li sufix -ic desapari avan it; vide anc D,2 in infra) verbes, queles significa «far tal»: aclimatisar, autorisar, baronisar, botanisar, caracterisar, carbonisar, civilisar, colonisar, dramatisar, electrisar, germanisar, harmonisar, magnetisar, mobilisar, nationalisar, naturalisar, organisar, polarisar, polemisar, popularisar, realisar, specialisar, symbolisar, sympathisar, systematisar, terrorisar.</p>
+<p>-ita-r vide sub -ar (a) in supra.</p>
+<p>-iza-r deriva fro nómines de persones verbes, queles significa «acter in maniere de...» sovente con efect internal: botanizar, hamstrizar, judeizar, mastrizar, nomadizar, rivalizar, tyrranizar. On ha proposit unir -isa-r e -iza-r a un form -isa-r. </p>
+<p>Pri to de Wahl di: «On ne posse confuser -isar con -izar pro li nonsens quel deveni: judeisar e germanisar!! Esque to es lu sam? Judeisar significa «far judeo» e judeizar significa «parlar quam un judeo»; mastrisar «far mastro», mastrizar «tractar quam un mastro». O esque forsan baronisar significa «luder li rol de un baron?» Un tal mixtion in un L.I. quel es por omni nationes, e quel deve esser plu regulat quam li cáos in li lingues natural, ne es tolerabil. Li essentie de Occidental ne es solmen li mult international paroles, ma just li precision del derivation.»</p>
+<p>-nta-r {equals} -nt+ar; vide it in supra che li sufix verbal -a, punctu e.</p>
+<p>-otta-r; vide it in supra che li sufix verbal -a-r, punctu g.</p>
+<h3><a class="header" href="#c-sufixes-ínproductiv" id="c-sufixes-ínproductiv">C. Sufixes ínproductiv.</a></h3>
+<h4><a class="header" href="#1-sufixes-nominal-ínproductiv" id="1-sufixes-nominal-ínproductiv">1. Sufixes nominal ínproductiv.</a></h4>
+<p>-est significa «havent, causant», ma anc «apartenent a...», p. ex.: modest (de L mod-us {equals} moderation), molest (L mol-es {equals} pena, efortia), honest (L hon-os {equals} honor), funest (L fun-us {equals} funerale, morte), celest (L cael-um {equals} ciel). It existe anc li formes secundari -est-ic e -est-ri: agrest(ic) de agre, domest(ic) de dom; campest(ri) de camp, silvest(ri) de silva, terrest(ri) de terre.</p>
+<p>-id, usat generalmen con li verbes per -ed, indica «havent qualitá respondent al verbe»; calid (de caler), candid (de cander), fervid (de ferver), fluid (fluer), frigid (friger), horrid (horrer), liquid (liquer), lucid (lucer), pallid (paller), rigid (riger), splendid (splender), timid (timer), tumid (tumer), (in)-valid (valer), vivid (viver). De altri verbes (in -ar e -ir): glissid (glissar), bollid (bollir), languid (languir), putrid (putrir). </p>
+<p>-il have du orígines, (a) de L -ilis ínaccentuat e (b) de L -ílis accentuat; in Occidental it es sempre accentuat e indica (a) un possibilitá, analog al sufixes -ibil e -iv: debil (de de[ha]bil), docil (docer), ductil (ducter), facil (L facere «far»), fertil (L ferre «portar, producter»), fragil (L frangere «fracter»), gracil (de provenientie dubitosi), habil (L habere «haver, conduir»), humil (hum), reptile (repter), simil (parent a «simular»), steril (parent a sanscrit starí, grec steíreós, goth. staira, omnis del sam signification; li finale -il es ci un association al antonim «fertil»), textil (de texter), util (de L uti «usar»), vigil (de quel: vigilar: de L vigere «vigorar»), volatir (de volar); (b) it have li signification «havent li tipic qualitá de un tal person o cose», p. ex.: civil (de cive), gentil (gente), hostil (L hostis «ínamic»), juvenil (juven), senil (L sen-ex «old mann»), servil (servo), viris (L vir «mann»). Li parol «subtil» ne es format per -il, ma it es composit ex latin sub+tela (= textura) «fin textet». </p>
+<p>-n significa «venient de» e es juntet al complet latin tema de personal nómines, p. ex.: fratern (de L frater), matern (L mater), patern (L pater). On posse adjunter anc -al: fraternal, maternal, paternal, ma por continuat derivation on usa solmen li formes sin -al: fraternisar, maternitá, paternitá. On posse anc usar li regulari formes per -in: fratrin, matrin, patrin.</p>
+<p>-nd (juntet al tema presentic) significa un obligation passiv: diminuend, dividend, examinand, horrend, radicand, reverend, subtraend, summand, timend, le(g)ende, vigiland.</p>
+<h4><a class="header" href="#2-sufixes-verbal-ínproductiv" id="2-sufixes-verbal-ínproductiv">2. Sufixes verbal ínproductiv.</a></h4>
+<p>-esce-r es un sufix purmen scientic e significa «haver luce quam...»: fluor, fluorescer; opale, opalescer; phosphor, phosphorescer. -- Compara li sufix -esc in li anterior parte (III,B,1.)</p>
+<p>-ica-r ne have un signification fix: communicar (= far commun a un altre, partiprender li commun table, i.e. li communion), excommunicar (= excluder de lu commun); fumicar (= tractar per fum). Li verb «cavalcar» es nascet ex caval(li)car (= ear sur un cavalle).</p>
+<h3><a class="header" href="#d-contraction" id="d-contraction">D. Contraction.</a></h3>
+<p>Un fenomen remarcabil in li parolformation es li contraction, nominat anc «haplologie». It consiste in li redaction de du simil succedent sones o songruppes a un. Talmen on di p. ex.: «Amphora» in vice de amphiphora, «mineralogie» in vice de mineralologie, «tragicomic» in vice de tragicocomic.</p>
+<p>Ci es regardat in sequent li casus de contraction in li derivation u ili es tre frequent.</p>
+<ol>
+<li>Contraction che sufixes nominal.</li>
+</ol>
+<p>-ide; i+ide {equals} ide: apatride (= apatri-ide).</p>
+<p>-in; i+in {equals} in: glac(i)in.</p>
+<p>-ism; i+ism {equals} ism: anarch(i)ism; ic+ism {equals} ism: pacif(ic)ism.</p>
+<p>-ist; i+ist {equals} ist: anarch(i)ist, artiller(i)ist, cavaller(i)ist, infanter(i)ist. Ad plu ic + ist {equals} ist: pacif(ic)ist.</p>
+<p>-ite; i+ite {equals} ite: bronch(i)ite.</p>
+<p>-os; on + os {equals} os: ambiti(on)os, infecti(on)os, pretensi(on)os, religi(on)os.</p>
+<p>-tá; ic+itá {equals} itá: ident(ic)itá; ti+tá {equals} tá: paren(ti)tá.</p>
+<p>-t(or)r-essa: tri+tressa {equals} tressa: «nutressa» in vice de nutritressa del verb nutrir (tema perfectic: nutrit).</p>
+<ol start="2">
+<li>Contraction che sufixes verbal.</li>
+</ol>
+<p>i-fica-r: i+i {equals} I: glor(i)ificar, mum(i)ificar; ic+i {equals} i: ident(ic)ificar.</p>
+<p>-isa-r: i+i {equals} i: colon(i)isar, harmon(i)isar, popular(i)isar; ic+is = is: electr(ic)isar, magnet(ic)isar, polem(ic)isar.</p>
+<p>E. Derivation del temas finient in -c, -g.</p>
+<p>Li problema del temas finient in -c, -g concerne tam li flexion quam li derivation. Li solution de ti problema in egard al flexion es tractat in li capitul II (D,4).</p>
+<p>Pri li solution del sam tema in consideration del derivation Pigal proposi li sequent regul:</p>
+<p>Li sufixes comensant per -e- (-ell, -er, -eria, -erie, -esc, -es-, -ess, -ett) conserva li son dur de c, g final del temas, contra que -i- muta li son. To es li consequentie de un simplic feromen fisiologic. Nam e pronuncia se plu proxim li gúttur, do c, g resta guttural e in li derivation per -e- on have k, gh. Ma -i- pronuncia se plu vicin al dentes; do c, g ante sufixes comensant per -i- (-ic, -ie, -ier, -ific, -il, -isar, -ism, -issim, -ist, -itá) deveni dentales e li scrition resta c, g. Ma li sones nasal ng, nc (nk) (cp. I-m capitul, parte H) nequande deveni sibilant.</p>
+<p>Exemples de derivation</p>
+<ol>
+<li>
+<p>-gi-: quam logic, magic, agil, tam on vell posser dir anc: catalogisar; ma diphthonghic, longhissim, longhitá;</p>
+</li>
+<li>
+<p>-ic-: pacific, piscine, vaccinar, calcinar, grecisar, criticism, catholicism, gallicism, grecist, amicitá, electricitá, fascist, monacie, monaceria; pro to anc: formiciera, persiciero, tabaciero; ma bankist, blankitá.</p>
+</li>
+<li>
+<p>-ghe-: quam l lungheria, I laghetto, tam anc: segheria, borghese, longhess, laghette, plughero.</p>
+</li>
+<li>
+<p>-ke-: arkero, bankero, vackero, packero, blankero, monakesc, dukessa, bankett, jackett, plackett, packett, boskett (I boschetto), furkette, storkell. </p>
+</li>
+</ol>
+<p>«Fig» e «drog» ne apartene al present problema. Nam it es recomendabil conservar «figue» pro figuiero (analog al formes S e F). On ne posse dir figiero. E fighiero vell esser contra li regul, quel on ne va abandonar pro ti unic parol. In «drogue» (venient del nederlandan «droog» = sicc) g nequande deveni sonor-dental ž. Do ci -u- deve esser conservat in li radica de Occidental (F droguerie e droguist, S drogueria, droguero, I droghiere). On ne posse acceptar li minu international I droghe, vice li plu international «drogue».</p>
+<h3><a class="header" href="#f-liste-del-sufixes-secun-lor-usation" id="f-liste-del-sufixes-secun-lor-usation">F. Liste del sufixes secun lor usation.</a></h3>
+<p>Li sufixes ne es ordinat in general alfabetic, ma secun lor importantie.</p>
+<ol>
+<li>
+<p>Nómines de action (L Nomina actionnes): -ie, -ore (-ntie), -ion tema presentic, -da, -ment, -ura; li nómines de action es anc nominat verbal substantives.</p>
+</li>
+<li>
+<p>Nómines de actente (L Nomina agentis): -or, -nt, -er-a, -er-o, -ario, -ard, -astr, -on.</p>
+</li>
+<li>
+<p>Nómines concret (L Nomina rei concretae), i.e. «substantives resultativ»: -ion, tema perfectic, -t, -ment, -ura.</p>
+</li>
+<li>
+<p>Nómines de instrument (L Nomina instrumenti): -ment, -ett, -uor.</p>
+</li>
+<li>
+<p>Nómines de loc (L Nomina locis): -oria, -ia, -eria, -arium, -uor.</p>
+</li>
+<li>
+<p>Nómines de qualitá (L Nomina modi): -tá, -ie, -ntie, -ura, -esse, -ore.</p>
+</li>
+<li>
+<p>Participies: -nt, -t, -nd.</p>
+</li>
+<li>
+<p>Adjectives de verbal temas: -bil, -id, -il, -iv, -ori, -aci.</p>
+</li>
+<li>
+<p>Adjectives de nominal temas: -al, -ari, -an, -at, -atr, -esc, -ic, -in, -ori, -os, -ut.</p>
+</li>
+<li>
+<p>Diminutives: -ell, -ett, -ill, -il', -in'.</p>
+</li>
+<li>
+<p>Feminines: -a, -essa, (-ín).</p>
+</li>
+<li>
+<p>Nómines colectiv: -arium, -al'a, -age, -ité.</p>
+</li>
+<li>
+<p>Nómines de oficie, mestiere, profession: -atu, -erie, -ie.</p>
+</li>
+<li>
+<p>Nómines de orígine: -in, -it, -id, -oid.</p>
+</li>
+<li>
+<p>Nómines de caracterisation: -ard, -on, -astr.</p>
+</li>
+<li>
+<p>Augmentation: -issim, -ott.</p>
+</li>
+<li>
+<p>Adverbies: -men, -li.</p>
+</li>
+<li>
+<p>Numerales: -esim, -en, -ant, -plic.</p>
+</li>
+</ol>
+<p>(Fine del III-m capitul.) </p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../grammatica-centennial/janotta/2-Flexion.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../grammatica-centennial/janotta/4-Composition.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../../grammatica-centennial/janotta/2-Flexion.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../../grammatica-centennial/janotta/4-Composition.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script src="https://occidental-lang.com/website-word-lookup/lookup.js"></script>
+        <script>
+            lookupInit('https://occidental-lang.com/website-word-lookup/dict.json');
+        </script>
+        
+
+    </body>
+</html>
